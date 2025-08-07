@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000037] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000054] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000067] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000079] (-) JobUnselected: {'identifier': 'my_ros2_test_package'}
+[0.000090] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000103] (baxter_moveit_config) JobQueued: {'identifier': 'baxter_moveit_config', 'dependencies': OrderedDict([('rethink_ee_description', '/shared_ws/install/rethink_ee_description'), ('baxter_description', '/shared_ws/install/baxter_description')])}
+[0.000119] (baxter_moveit_config) JobStarted: {'identifier': 'baxter_moveit_config'}
+[0.006819] (baxter_moveit_config) JobProgress: {'identifier': 'baxter_moveit_config', 'progress': 'cmake'}
+[0.007508] (baxter_moveit_config) JobProgress: {'identifier': 'baxter_moveit_config', 'progress': 'build'}
+[0.007939] (baxter_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/baxter_moveit_config', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/baxter_moveit_config', 'env': OrderedDict([('HOSTNAME', 'haileesComputer'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble')]), 'shell': False}
+[0.030357] (baxter_moveit_config) CommandEnded: {'returncode': 0}
+[0.030827] (baxter_moveit_config) JobProgress: {'identifier': 'baxter_moveit_config', 'progress': 'install'}
+[0.035754] (baxter_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/shared_ws/build/baxter_moveit_config'], 'cwd': '/shared_ws/build/baxter_moveit_config', 'env': OrderedDict([('HOSTNAME', 'haileesComputer'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble')]), 'shell': False}
+[0.040528] (baxter_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.040721] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config\n'}
+[0.041177] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/moveit_controllers.yaml\n'}
+[0.041386] (baxter_moveit_config) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/joint_limits.yaml\n'}
+[0.041443] (baxter_moveit_config) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/kinematics.yaml\n'}
+[0.041505] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/controllers.yaml\n'}
+[0.041615] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/ompl_planning.yaml\n'}
+[0.041665] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch\n'}
+[0.041713] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch/demo.launch.py\n'}
+[0.041760] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch/move_group.launch.py\n'}
+[0.041830] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch/baxter_real.launch.py\n'}
+[0.041888] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/srdf\n'}
+[0.041931] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/srdf/baxter.srdf\n'}
+[0.041974] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/ament_index/resource_index/package_run_dependencies/baxter_moveit_config\n'}
+[0.042017] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/ament_index/resource_index/parent_prefix_path/baxter_moveit_config\n'}
+[0.042082] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/ament_prefix_path.sh\n'}
+[0.042159] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/ament_prefix_path.dsv\n'}
+[0.042215] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/path.sh\n'}
+[0.042272] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/path.dsv\n'}
+[0.042328] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.bash\n'}
+[0.042384] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.sh\n'}
+[0.042439] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.zsh\n'}
+[0.042495] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.dsv\n'}
+[0.042678] (baxter_moveit_config) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/package.dsv\n'}
+[0.042948] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/ament_index/resource_index/packages/baxter_moveit_config\n'}
+[0.042997] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/cmake/baxter_moveit_configConfig.cmake\n'}
+[0.043061] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/cmake/baxter_moveit_configConfig-version.cmake\n'}
+[0.043229] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/package.xml\n'}
+[0.043284] (baxter_moveit_config) CommandEnded: {'returncode': 0}
+[0.056533] (baxter_moveit_config) JobEnded: {'identifier': 'baxter_moveit_config', 'rc': 0}
+[0.057010] (-) EventReactorShutdown: {}

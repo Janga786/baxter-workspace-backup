@@ -1,0 +1,88 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /shared_ws/build/rethink_ee_description
+-- Install configuration: ""
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper_30mm_cup.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.STL
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.DAE
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/null_gripper.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/example_end_effector.urdf.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/rethink_electric_gripper.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_wide.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_narrow.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_narrow.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_hard_tip.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_soft_tip.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/half_round_tip.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/none.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/paddle_tip.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_wide.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/example_end_effector.urdf.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/pneumatic_gripper_base.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/example_end_effector.urdf.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/rethink_pneumatic_gripper.xacro
+-- Installing: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/package_run_dependencies/rethink_ee_description
+-- Installing: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/parent_prefix_path/rethink_ee_description
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.sh
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.dsv
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.sh
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.dsv
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.bash
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.sh
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.zsh
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.dsv
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv
+-- Installing: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/packages/rethink_ee_description
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig.cmake
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig-version.cmake
+-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.xml

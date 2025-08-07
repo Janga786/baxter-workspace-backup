@@ -1,0 +1,11 @@
+import rospy 
+import baxter_interface
+from geometry_msgs.msg import Pose, Point, Quaternion
+from baxter_core_msgs.srv import (SolvePositionIK, SolvePostinIKRequest)
+
+def main():
+    joint_angles(self)
+
+
+if __name__ == '__main__':
+    main()

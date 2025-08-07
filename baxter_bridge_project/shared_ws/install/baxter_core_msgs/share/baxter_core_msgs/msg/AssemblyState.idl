@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/AssemblyState.msg
+// generated code does not contain a copyright notice
+
+
+module baxter_core_msgs {
+  module msg {
+    module AssemblyState_Constants {
+      @verbatim (language="comment", text=
+        "Robot is not stopped and button is not pressed")
+      const uint8 ESTOP_BUTTON_UNPRESSED = 0;
+      const uint8 ESTOP_BUTTON_PRESSED = 1;
+      @verbatim (language="comment", text=
+        "STATE_UNKNOWN when estop was asserted by a non-user source")
+      const uint8 ESTOP_BUTTON_UNKNOWN = 2;
+      @verbatim (language="comment", text=
+        "Was pressed, is now known to be released, but robot is still stopped.")
+      const uint8 ESTOP_BUTTON_RELEASED = 3;
+      @verbatim (language="comment", text=
+        "e-stop is not asserted")
+      const uint8 ESTOP_SOURCE_NONE = 0;
+      @verbatim (language="comment", text=
+        "e-stop source is user input (the red button)")
+      const uint8 ESTOP_SOURCE_USER = 1;
+      @verbatim (language="comment", text=
+        "e-stop source is unknown")
+      const uint8 ESTOP_SOURCE_UNKNOWN = 2;
+      @verbatim (language="comment", text=
+        "MotorController asserted e-stop in response to a joint fault")
+      const uint8 ESTOP_SOURCE_FAULT = 3;
+      @verbatim (language="comment", text=
+        "MotorController asserted e-stop in response to a lapse of the brain heartbeat")
+      const uint8 ESTOP_SOURCE_BRAIN = 4;
+    };
+    struct AssemblyState {
+      @verbatim (language="comment", text=
+        "true if enabled and ready to operate, e.g., not homing")
+      boolean ready;
+
+      @verbatim (language="comment", text=
+        "true if enabled")
+      boolean enabled;
+
+      @verbatim (language="comment", text=
+        "true if stopped -- e-stop asserted")
+      boolean stopped;
+
+      @verbatim (language="comment", text=
+        "true if a component of the assembly has an error")
+      boolean error;
+
+      @verbatim (language="comment", text=
+        "The following are specific to the robot top-level assembly:" "\n"
+        "One of the following:")
+      uint8 estop_button;
+
+      @verbatim (language="comment", text=
+        "If stopped is true, the source of the e-stop. One of the following:")
+      uint8 estop_source;
+    };
+  };
+};

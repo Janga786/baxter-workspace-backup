@@ -1,0 +1,52 @@
+# Use ROS 1 Noetic as the base
+FROM ros:noetic
+
+# Install system dependencies and the Baxter SDK
+RUN apt-get update && apt-get install -y \
+    git \
+    python3-catkin-tools \
+    python3-rosdep \
+    python3-wstool \
+    ros-noetic-actionlib \
+    ros-noetic-cv-bridge \
+    ros-noetic-control-msgs \
+    ros-noetic-trajectory-msgs \
+    ros-noetic-rospy-message-converter \
+    ros-noetic-xacro \
+    ros-noetic-tf2-ros \
+    ros-noetic-gazebo-ros \
+    ros-noetic-gazebo-ros-control \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set up the workspace
+RUN mkdir -p /ros/ws_baxter/src
+WORKDIR /ros/ws_baxter
+
+# Clone Baxter repositories directly (without wstool to avoid interaction)
+RUN cd src && \
+    git clone https://github.com/RethinkRobotics/baxter.git && \
+    git clone https://github.com/RethinkRobotics/baxter_interface.git && \
+    git clone https://github.com/RethinkRobotics/baxter_tools.git && \
+    git clone https://github.com/RethinkRobotics/baxter_common.git && \
+    git clone https://github.com/RethinkRobotics/baxter_examples.git
+
+# Initialize rosdep if not already done
+RUN if [ ! -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then \
+        rosdep init; \
+    fi && \
+    rosdep update
+
+# Install all dependencies
+RUN rosdep install --from-paths src --ignore-src -y -r
+
+# Build the workspace
+RUN /bin/bash -c "source /opt/ros/noetic/setup.bash && catkin_make"
+
+# Source the environment automatically
+RUN echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc && \
+    echo "source /ros/ws_baxter/devel/setup.bash" >> ~/.bashrc
+
+# Set the ROS_MASTER_URI (you'll need to update this with your Baxter's IP)
+ENV ROS_MASTER_URI=http://baxter.local:11311
+
+CMD ["/bin/bash"]

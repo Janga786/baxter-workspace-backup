@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/HeadPanCommand.msg
+// generated code does not contain a copyright notice
+
+
+module baxter_core_msgs {
+  module msg {
+    module HeadPanCommand_Constants {
+      const float MAX_SPEED_RATIO = 1.0;
+      const float MIN_SPEED_RATIO = 0.0;
+      @verbatim (language="comment", text=
+        "enable_pan_request is tristate: 0 = disable pan; 1 = enable pan; 2 = don't change pan")
+      const uint8 REQUEST_PAN_DISABLE = 0;
+      const uint8 REQUEST_PAN_ENABLE = 1;
+      const uint8 REQUEST_PAN_VOID = 2;
+    };
+    struct HeadPanCommand {
+      @verbatim (language="comment", text=
+        "radians for target, 0 str")
+      float target;
+
+      @verbatim (language="comment", text=
+        "Percentage of max speed")
+      @unit (value="0-1")
+      float speed_ratio;
+
+      @verbatim (language="comment", text=
+        "override automatic pan enable/disable")
+      uint8 enable_pan_request;
+    };
+  };
+};

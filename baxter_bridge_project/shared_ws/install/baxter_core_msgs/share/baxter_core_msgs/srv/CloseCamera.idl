@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from baxter_core_msgs/srv/CloseCamera.srv
+// generated code does not contain a copyright notice
+
+
+module baxter_core_msgs {
+  module srv {
+    struct CloseCamera_Request {
+      string name;
+    };
+    struct CloseCamera_Response {
+      int32 err;
+    };
+  };
+};

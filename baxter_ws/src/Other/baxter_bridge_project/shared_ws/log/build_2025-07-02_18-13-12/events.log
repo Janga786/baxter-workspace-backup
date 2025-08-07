@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000038] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000056] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000068] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000079] (-) JobUnselected: {'identifier': 'baxter_moveit_config'}
+[0.000089] (-) JobUnselected: {'identifier': 'my_ros2_test_package'}
+[0.000100] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000114] (baxter_bridge) JobQueued: {'identifier': 'baxter_bridge', 'dependencies': OrderedDict([('baxter_core_msgs', '/shared_ws/install/baxter_core_msgs'), ('baxter_maintenance_msgs', '/shared_ws/install/baxter_maintenance_msgs')])}
+[0.000130] (baxter_bridge) JobStarted: {'identifier': 'baxter_bridge'}
+[0.016270] (baxter_bridge) JobProgress: {'identifier': 'baxter_bridge', 'progress': 'cmake'}
+[0.016653] (baxter_bridge) Command: {'cmd': ['/usr/bin/cmake', '/shared_ws/src/baxter_bridge', '-DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_bridge'], 'cwd': '/shared_ws/build/baxter_bridge', 'env': OrderedDict([('HOSTNAME', 'haileesComputer'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/shared_ws/install/baxter_maintenance_msgs/lib:/shared_ws/install/baxter_core_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/baxter_maintenance_msgs:/shared_ws/install/baxter_core_msgs:/opt/ros/humble'), ('ROS_MASTER_URI', 'http://192.168.42.2:11311'), ('PWD', '/shared_ws/build/baxter_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/shared_ws/install/baxter_maintenance_msgs/local/lib/python3.10/dist-packages:/shared_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/baxter_maintenance_msgs:/shared_ws/install/baxter_core_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099521] (-) TimerEvent: {}
+[0.117674] (baxter_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.182578] (baxter_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.189351] (baxter_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199615] (-) TimerEvent: {}
+[0.234727] (baxter_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.239986] (baxter_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.240276] (baxter_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.240914] (baxter_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.243421] (baxter_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.295598] (baxter_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299706] (-) TimerEvent: {}
+[0.301135] (baxter_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.301333] (baxter_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.301647] (baxter_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.303422] (baxter_bridge) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.392852] (baxter_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399777] (-) TimerEvent: {}
+[0.499916] (-) TimerEvent: {}
+[0.512812] (baxter_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.518881] (baxter_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.553133] (baxter_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600028] (-) TimerEvent: {}
+[0.632901] (baxter_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.635519] (baxter_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.691721] (baxter_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700093] (-) TimerEvent: {}
+[0.705426] (baxter_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.726781] (baxter_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.735467] (baxter_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.783419] (baxter_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.783577] (baxter_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800193] (-) TimerEvent: {}
+[0.826571] (baxter_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.827266] (baxter_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900272] (-) TimerEvent: {}
+[0.970289] (baxter_bridge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.971356] (baxter_bridge) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.971440] (baxter_bridge) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000374] (-) TimerEvent: {}
+[1.100573] (-) TimerEvent: {}
+[1.200727] (-) TimerEvent: {}
+[1.205851] (baxter_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.300804] (-) TimerEvent: {}
+[1.314064] (baxter_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.400881] (-) TimerEvent: {}
+[1.449540] (baxter_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.461657] (baxter_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.463210] (baxter_bridge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.476570] (baxter_bridge) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.476690] (baxter_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.476738] (baxter_bridge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.476781] (baxter_bridge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.487295] (baxter_bridge) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.500957] (-) TimerEvent: {}
+[1.512077] (baxter_bridge) StderrLine: {'line': b'CMake Error at CMakeLists.txt:50 (find_package):\n'}
+[1.512318] (baxter_bridge) StderrLine: {'line': b'  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.512403] (baxter_bridge) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "OpenCV", but\n'}
+[1.512457] (baxter_bridge) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.512512] (baxter_bridge) StderrLine: {'line': b'\n'}
+[1.512598] (baxter_bridge) StderrLine: {'line': b'  Could not find a package configuration file provided by "OpenCV" with any\n'}
+[1.512659] (baxter_bridge) StderrLine: {'line': b'  of the following names:\n'}
+[1.512708] (baxter_bridge) StderrLine: {'line': b'\n'}
+[1.512752] (baxter_bridge) StderrLine: {'line': b'    OpenCVConfig.cmake\n'}
+[1.512792] (baxter_bridge) StderrLine: {'line': b'    opencv-config.cmake\n'}
+[1.512831] (baxter_bridge) StderrLine: {'line': b'\n'}
+[1.512870] (baxter_bridge) StderrLine: {'line': b'  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set\n'}
+[1.512914] (baxter_bridge) StderrLine: {'line': b'  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"\n'}
+[1.512954] (baxter_bridge) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.512994] (baxter_bridge) StderrLine: {'line': b'  installed.\n'}
+[1.513033] (baxter_bridge) StderrLine: {'line': b'\n'}
+[1.513072] (baxter_bridge) StderrLine: {'line': b'\n'}
+[1.513111] (baxter_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.513152] (baxter_bridge) StdoutLine: {'line': b'See also "/shared_ws/build/baxter_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[1.518440] (baxter_bridge) CommandEnded: {'returncode': 1}
+[1.534013] (baxter_bridge) JobEnded: {'identifier': 'baxter_bridge', 'rc': 1}
+[1.544389] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_maintenance_msgs/msg/TareData.msg
+// generated code does not contain a copyright notice
+
+
+module baxter_maintenance_msgs {
+  module msg {
+    struct TareData {
+      boolean tune_gravity_spring;
+    };
+  };
+};

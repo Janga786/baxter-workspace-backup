@@ -1,0 +1,4 @@
+Invoking command in '/shared_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_maintenance_msgs -- -j16 -l16
+Invoked command in '/shared_ws/build/baxter_maintenance_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_maintenance_msgs -- -j16 -l16
+Invoking command in '/shared_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_maintenance_msgs
+Invoked command in '/shared_ws/build/baxter_maintenance_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_maintenance_msgs

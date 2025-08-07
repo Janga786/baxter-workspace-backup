@@ -1,0 +1,76 @@
+[0.009s] Invoking command in '/shared_ws/build/baxter_description': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_description -- -j16 -l16
+[0.071s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.179s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.259s] -- Configuring done
+[0.261s] -- Generating done
+[0.263s] -- Build files have been written to: /shared_ws/build/baxter_description
+[0.279s] Invoked command in '/shared_ws/build/baxter_description' returned '0': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_description -- -j16 -l16
+[0.286s] Invoking command in '/shared_ws/build/baxter_description': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_description
+[0.290s] -- Install configuration: ""
+[0.290s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/environment/resource_paths.dsv
+[0.290s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes
+[0.290s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder
+[0.290s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder/S1.DAE
+[0.291s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder/S1.STL
+[0.291s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder
+[0.291s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder/S0.STL
+[0.293s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder/S0.DAE
+[0.294s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso
+[0.295s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link_collision.STL
+[0.295s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link.DAE
+[0.299s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link.STL
+[0.301s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link_collision.DAE
+[0.302s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm
+[0.302s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm/W0.STL
+[0.303s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm/W0.DAE
+[0.304s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm
+[0.304s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm/W1.DAE
+[0.305s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm/W1.STL
+[0.305s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow
+[0.305s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow/E1.STL
+[0.306s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow/E1.DAE
+[0.307s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/wrist
+[0.307s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/wrist/W2.DAE
+[0.307s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/wrist/W2.STL
+[0.308s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/base
+[0.308s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/pedestal_link_collision.STL
+[0.308s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/PEDESTAL.DAE
+[0.313s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/pedestal_link_collision.DAE
+[0.313s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/PEDESTAL.STL
+[0.316s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow
+[0.316s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow/E0.STL
+[0.316s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow/E0.DAE
+[0.317s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/meshes/head
+[0.317s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H0.STL
+[0.317s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H1.STL
+[0.317s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H0.DAE
+[0.318s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H1.DAE
+[0.318s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/urdf
+[0.318s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/baxter.urdf.xacro
+[0.318s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/gazebosim.urdf.xacro
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/right_end_effector.urdf.xacro
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/left_end_effector.urdf.xacro
+[0.319s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/urdf/pedestal
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/pedestal/pedestal.xacro
+[0.319s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/urdf/baxter_base
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/baxter_base/baxter_base.urdf.xacro
+[0.319s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/launch
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/launch/config.rviz
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/launch/rviz_launch.py
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/launch/baxter_state_publisher_launch.py
+[0.319s] -- Up-to-date: /shared_ws/install/baxter_description/share/ament_index/resource_index/package_run_dependencies/baxter_description
+[0.319s] -- Up-to-date: /shared_ws/install/baxter_description/share/ament_index/resource_index/parent_prefix_path/baxter_description
+[0.319s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/environment/ament_prefix_path.sh
+[0.319s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/environment/ament_prefix_path.dsv
+[0.319s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/environment/path.sh
+[0.320s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/environment/path.dsv
+[0.320s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/local_setup.bash
+[0.320s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/local_setup.sh
+[0.320s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/local_setup.zsh
+[0.320s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/local_setup.dsv
+[0.320s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/package.dsv
+[0.320s] -- Up-to-date: /shared_ws/install/baxter_description/share/ament_index/resource_index/packages/baxter_description
+[0.320s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/cmake/baxter_descriptionConfig.cmake
+[0.320s] -- Up-to-date: /shared_ws/install/baxter_description/share/baxter_description/cmake/baxter_descriptionConfig-version.cmake
+[0.320s] -- Installing: /shared_ws/install/baxter_description/share/baxter_description/package.xml
+[0.321s] Invoked command in '/shared_ws/build/baxter_description' returned '0': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_description

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<robot name="baxter">
+    <group name="left_arm">
+        <chain base_link="base" tip_link="left_gripper" />
+    </group>
+    <group name="right_arm">
+        <chain base_link="base" tip_link="right_gripper" />
+    </group>
+    <group name="both_arms">
+        <group name="left_arm" />
+        <group name="right_arm" />
+    </group>
+    <group name="left_hand">
+        <link name="left_gripper" />
+    </group>
+    <group name="right_hand">
+        <link name="right_gripper" />
+    </group>
+    <end_effector name="left_hand" parent_link="left_wrist" group="left_hand" />
+    <end_effector name="right_hand" parent_link="right_wrist" group="right_hand" />
+    <virtual_joint name="virtual_joint" type="fixed" parent_frame="world" child_link="base" />
+    <disable_collisions link1="base" link2="left_s0" reason="Adjacent" />
+    <disable_collisions link1="base" link2="left_s1" reason="Adjacent" />
+    <disable_collisions link1="base" link2="right_s0" reason="Adjacent" />
+    <disable_collisions link1="base" link2="right_s1" reason="Adjacent" />
+    <disable_collisions link1="base" link2="torso" reason="Adjacent" />
+    <disable_collisions link1="head" link2="left_s0" reason="Never" />
+    <disable_collisions link1="head" link2="left_s1" reason="Never" />
+    <disable_collisions link1="head" link2="right_s0" reason="Never" />
+    <disable_collisions link1="head" link2="right_s1" reason="Never" />
+    <disable_collisions link1="head" link2="torso" reason="Adjacent" />
+    <disable_collisions link1="left_e0" link2="left_e1" reason="Adjacent" />
+    <disable_collisions link1="left_e0" link2="left_s1" reason="Adjacent" />
+    <disable_collisions link1="left_e0" link2="left_w0" reason="Never" />
+    <disable_collisions link1="left_e1" link2="left_w0" reason="Adjacent" />
+    <disable_collisions link1="left_e1" link2="left_w1" reason="Never" />
+    <disable_collisions link1="left_gripper" link2="left_w2" reason="Adjacent" />
+    <disable_collisions link1="left_s0" link2="left_s1" reason="Adjacent" />
+    <disable_collisions link1="left_s0" link2="right_s0" reason="Never" />
+    <disable_collisions link1="left_s0" link2="right_s1" reason="Never" />
+    <disable_collisions link1="left_s0" link2="torso" reason="Adjacent" />
+    <disable_collisions link1="left_s1" link2="right_s0" reason="Never" />
+    <disable_collisions link1="left_s1" link2="torso" reason="Never" />
+    <disable_collisions link1="left_w0" link2="left_w1" reason="Adjacent" />
+    <disable_collisions link1="left_w0" link2="left_w2" reason="Never" />
+    <disable_collisions link1="left_w1" link2="left_w2" reason="Adjacent" />
+    <disable_collisions link1="right_e0" link2="right_e1" reason="Adjacent" />
+    <disable_collisions link1="right_e0" link2="right_s1" reason="Adjacent" />
+    <disable_collisions link1="right_e0" link2="right_w0" reason="Never" />
+    <disable_collisions link1="right_e1" link2="right_w0" reason="Adjacent" />
+    <disable_collisions link1="right_e1" link2="right_w1" reason="Never" />
+    <disable_collisions link1="right_gripper" link2="right_w2" reason="Adjacent" />
+    <disable_collisions link1="right_s0" link2="right_s1" reason="Adjacent" />
+    <disable_collisions link1="right_s0" link2="torso" reason="Adjacent" />
+    <disable_collisions link1="right_s1" link2="torso" reason="Never" />
+    <disable_collisions link1="right_w0" link2="right_w1" reason="Adjacent" />
+    <disable_collisions link1="right_w0" link2="right_w2" reason="Never" />
+    <disable_collisions link1="right_w1" link2="right_w2" reason="Adjacent" />
+</robot>

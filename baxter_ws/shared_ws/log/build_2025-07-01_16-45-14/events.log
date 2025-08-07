@@ -1,0 +1,36 @@
+[0.000000] (-) TimerEvent: {}
+[0.000652] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000677] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000692] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000705] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000719] (my_ros2_test_package) JobQueued: {'identifier': 'my_ros2_test_package', 'dependencies': OrderedDict()}
+[0.000733] (my_ros2_test_package) JobStarted: {'identifier': 'my_ros2_test_package'}
+[0.100035] (-) TimerEvent: {}
+[0.200162] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.400465] (-) TimerEvent: {}
+[0.419141] (my_ros2_test_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ros2_test_package', 'build', '--build-base', '/shared_ws/build/my_ros2_test_package/build', 'install', '--record', '/shared_ws/build/my_ros2_test_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/shared_ws/src/my_ros2_test_package', 'env': {'HOSTNAME': 'b009c0badc2d', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros/ws_moveit2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/shared_ws/build/my_ros2_test_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.500573] (-) TimerEvent: {}
+[0.573781] (my_ros2_test_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.574220] (my_ros2_test_package) StdoutLine: {'line': b'writing ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/PKG-INFO\n'}
+[0.574351] (my_ros2_test_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/dependency_links.txt\n'}
+[0.574439] (my_ros2_test_package) StdoutLine: {'line': b'writing entry points to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/entry_points.txt\n'}
+[0.574551] (my_ros2_test_package) StdoutLine: {'line': b'writing requirements to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/requires.txt\n'}
+[0.574597] (my_ros2_test_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/top_level.txt\n'}
+[0.575805] (my_ros2_test_package) StdoutLine: {'line': b"reading manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.576453] (my_ros2_test_package) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.576537] (my_ros2_test_package) StdoutLine: {'line': b'running build\n'}
+[0.576580] (my_ros2_test_package) StdoutLine: {'line': b'running build_py\n'}
+[0.576733] (my_ros2_test_package) StdoutLine: {'line': b'running install\n'}
+[0.576935] (my_ros2_test_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.578077] (my_ros2_test_package) StdoutLine: {'line': b'running install_data\n'}
+[0.578263] (my_ros2_test_package) StdoutLine: {'line': b'copying package.xml -> /shared_ws/install/my_ros2_test_package/share/my_ros2_test_package\n'}
+[0.578372] (my_ros2_test_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.580533] (my_ros2_test_package) StdoutLine: {'line': b'Copying ../../build/my_ros2_test_package/my_ros2_test_package.egg-info to /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package-0.0.0-py3.10.egg-info\n'}
+[0.583772] (my_ros2_test_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.598752] (my_ros2_test_package) StdoutLine: {'line': b'Installing wave_baxter script to /shared_ws/install/my_ros2_test_package/bin\n'}
+[0.599082] (my_ros2_test_package) StdoutLine: {'line': b"writing list of installed files to '/shared_ws/build/my_ros2_test_package/install.log'\n"}
+[0.600639] (-) TimerEvent: {}
+[0.614039] (my_ros2_test_package) CommandEnded: {'returncode': 0}
+[0.624469] (my_ros2_test_package) JobEnded: {'identifier': 'my_ros2_test_package', 'rc': 0}
+[0.624903] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>fort_lewis_demo</name>
+  <version>1.0.0</version>
+  <description>Fort Lewis College Baxter Demo Package</description>
+  <maintainer email="demo@fortlewis.edu">Demo Team</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>baxter_interface</run_depend>
+  <run_depend>baxter_core_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>

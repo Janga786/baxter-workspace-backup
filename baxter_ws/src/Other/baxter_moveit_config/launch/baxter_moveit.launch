@@ -1,0 +1,27 @@
+<launch>
+  <arg name="right_electric_gripper" default="true" />
+  <arg name="left_electric_gripper" default="true" />
+
+  <param name="robot_description"
+         command="$(find xacro)/xacro.py '$(find baxter_description)/urdf/baxter.urdf.xacro'
+         left_electric_gripper:=$(arg left_electric_gripper)
+         right_electric_gripper:=$(arg right_electric_gripper)" />
+
+  <param name="robot_description_semantic"
+         textfile="$(find baxter_moveit_config)/config/baxter.srdf" />
+
+  <group ns="robot_description_planning">
+    <rosparam command="load" file="$(find baxter_moveit_config)/config/joint_limits.yaml"/>
+  </group>
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <rosparam param="source_list">["/robot/joint_states"]</rosparam>
+  </node>
+
+  <node name="move_group" pkg="moveit_ros_move_group" type="move_group" respawn="false" output="screen">
+    <rosparam command="load" file="$(find baxter_moveit_config)/config/kinematics.yaml"/>
+  </node>
+
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false"
+        args="-d $(find baxter_moveit_config)/launch/moveit.rviz" output="screen" />
+</launch>

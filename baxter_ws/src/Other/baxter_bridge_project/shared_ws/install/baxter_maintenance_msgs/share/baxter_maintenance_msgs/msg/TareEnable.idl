@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_maintenance_msgs/msg/TareEnable.msg
+// generated code does not contain a copyright notice
+
+#include "baxter_maintenance_msgs/msg/TareData.idl"
+
+module baxter_maintenance_msgs {
+  module msg {
+    struct TareEnable {
+      boolean is_enabled;
+
+      string uid;
+
+      baxter_maintenance_msgs::msg::TareData data;
+    };
+  };
+};

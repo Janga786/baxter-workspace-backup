@@ -1,0 +1,635 @@
+[0.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fedbb9265f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fedbb925990>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fedbb925990>>, mixin_verb=('build',))
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.187s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.188s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.188s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/shared_ws'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/base) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/head) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_elbow) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_forearm) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/lower_shoulder) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/torso) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_elbow) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_forearm) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/upper_shoulder) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(meshes/wrist) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_core_msgs) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_core_msgs' with type 'ros.ament_cmake' and name 'baxter_core_msgs'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_description) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_description' with type 'ros.ament_cmake' and name 'baxter_description'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_maintenance_msgs) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_maintenance_msgs' with type 'ros.ament_cmake' and name 'baxter_maintenance_msgs'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_custom_msgs/msg) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_test_package) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_ros2_test_package' with type 'ros.ament_python' and name 'my_ros2_test_package'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rethink_ee_description) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rethink_ee_description' with type 'ros.ament_cmake' and name 'rethink_ee_description'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/baxter_base) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(urdf/pedestal) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_core_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared_ws/build/baxter_core_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared_ws/install/baxter_core_msgs', 'merge_install': False, 'path': '/shared_ws/src/baxter_core_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_maintenance_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared_ws/build/baxter_maintenance_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared_ws/install/baxter_maintenance_msgs', 'merge_install': False, 'path': '/shared_ws/src/baxter_maintenance_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_test_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'my_ros2_test_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared_ws/build/my_ros2_test_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared_ws/install/my_ros2_test_package', 'merge_install': False, 'path': '/shared_ws/src/my_ros2_test_package', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'rethink_ee_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared_ws/build/rethink_ee_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared_ws/install/rethink_ee_description', 'merge_install': False, 'path': '/shared_ws/src/rethink_ee_description', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/shared_ws/build/baxter_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/shared_ws/install/baxter_description', 'merge_install': False, 'path': '/shared_ws/src/baxter_description', 'symlink_install': False, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.230s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/shared_ws/src/rethink_ee_description' with build type 'ament_cmake'
+[0.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/shared_ws/src/rethink_ee_description'
+[0.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/shared_ws/src/baxter_core_msgs' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/shared_ws/src/baxter_core_msgs'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/shared_ws/src/baxter_maintenance_msgs' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/shared_ws/src/baxter_maintenance_msgs'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/shared_ws/src/my_ros2_test_package' with build type 'ament_python'
+[0.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_test_package', 'ament_prefix_path')
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/ament_prefix_path.ps1'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/ament_prefix_path.dsv'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/ament_prefix_path.sh'
+[0.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/rethink_ee_description -DCMAKE_INSTALL_PREFIX=/shared_ws/install/rethink_ee_description
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/baxter_core_msgs -DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_core_msgs
+[0.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/baxter_maintenance_msgs -DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_maintenance_msgs
+[0.437s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/shared_ws/src/my_ros2_test_package'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/src/my_ros2_test_package': PYTHONPATH=/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_test_package build --build-base /shared_ws/build/my_ros2_test_package/build install --record /shared_ws/build/my_ros2_test_package/install.log --single-version-externally-managed install_data
+[0.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/rethink_ee_description -DCMAKE_INSTALL_PREFIX=/shared_ws/install/rethink_ee_description
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/rethink_ee_description -- -j16 -l16
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/rethink_ee_description -- -j16 -l16
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/rethink_ee_description
+[0.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rethink_ee_description)
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/rethink_ee_description
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description' for CMake module files
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description' for CMake config files
+[0.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('rethink_ee_description', 'cmake_prefix_path')
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.ps1'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.sh'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/bin'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/lib/pkgconfig/rethink_ee_description.pc'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/lib/python3.10/site-packages'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/bin'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.sh'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.bash'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.zsh'
+[0.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/rethink_ee_description/share/colcon-core/packages/rethink_ee_description)
+[0.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rethink_ee_description)
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description' for CMake module files
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description' for CMake config files
+[0.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('rethink_ee_description', 'cmake_prefix_path')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/bin'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/lib/pkgconfig/rethink_ee_description.pc'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/lib/python3.10/site-packages'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/rethink_ee_description/bin'
+[0.909s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.ps1'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.sh'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.bash'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.zsh'
+[0.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/rethink_ee_description/share/colcon-core/packages/rethink_ee_description)
+[0.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/shared_ws/src/baxter_description' with build type 'ament_cmake'
+[0.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/shared_ws/src/baxter_description'
+[0.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_description': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake /shared_ws/src/baxter_description -DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_description
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/my_ros2_test_package' for CMake module files
+[1.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/src/my_ros2_test_package' returned '0': PYTHONPATH=/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_test_package build --build-base /shared_ws/build/my_ros2_test_package/build install --record /shared_ws/build/my_ros2_test_package/install.log --single-version-externally-managed install_data
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/my_ros2_test_package' for CMake config files
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/my_ros2_test_package/lib'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/my_ros2_test_package/bin'
+[1.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_test_package', 'path')
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/path.ps1'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/path.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/path.sh'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/my_ros2_test_package/lib/pkgconfig/my_ros2_test_package.pc'
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages'
+[1.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_test_package', 'pythonpath')
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/pythonpath.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/pythonpath.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/pythonpath.sh'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/my_ros2_test_package/bin'
+[1.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_test_package', 'pythonscriptspath')
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/pythonscriptspath.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/pythonscriptspath.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/hook/pythonscriptspath.sh'
+[1.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_ros2_test_package)
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/package.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/package.sh'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/package.bash'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/package.zsh'
+[1.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/my_ros2_test_package/share/colcon-core/packages/my_ros2_test_package)
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_description' returned '0': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake /shared_ws/src/baxter_description -DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_description
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_description': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_description -- -j16 -l16
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_description' returned '0': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_description -- -j16 -l16
+[1.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_description': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_description
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_maintenance_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/baxter_maintenance_msgs -DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_maintenance_msgs
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_maintenance_msgs -- -j16 -l16
+[1.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_description)
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description' for CMake module files
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_description' returned '0': AMENT_PREFIX_PATH=/shared_ws/install/rethink_ee_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/shared_ws/install/rethink_ee_description:/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_description
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description' for CMake config files
+[1.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_description', 'cmake_prefix_path')
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.dsv'
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.sh'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/bin'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/lib/pkgconfig/baxter_description.pc'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/lib/python3.10/site-packages'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/bin'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/baxter_description/share/baxter_description/package.dsv'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.sh'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.bash'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.zsh'
+[1.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/baxter_description/share/colcon-core/packages/baxter_description)
+[1.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_description)
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description' for CMake module files
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description' for CMake config files
+[1.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_description', 'cmake_prefix_path')
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.ps1'
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.sh'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/bin'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/lib/pkgconfig/baxter_description.pc'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/lib/python3.10/site-packages'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_description/bin'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/baxter_description/share/baxter_description/package.dsv'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.sh'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.bash'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_description/share/baxter_description/package.zsh'
+[1.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/baxter_description/share/colcon-core/packages/baxter_description)
+[2.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/baxter_core_msgs -DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_core_msgs
+[2.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_core_msgs -- -j16 -l16
+[4.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_maintenance_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_maintenance_msgs -- -j16 -l16
+[4.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_maintenance_msgs
+[5.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_maintenance_msgs)
+[5.029s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs' for CMake module files
+[5.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_maintenance_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_maintenance_msgs
+[5.030s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs' for CMake config files
+[5.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'cmake_prefix_path')
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.ps1'
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.dsv'
+[5.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.sh'
+[5.032s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/lib'
+[5.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'ld_library_path_lib')
+[5.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.ps1'
+[5.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.dsv'
+[5.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.sh'
+[5.033s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/bin'
+[5.033s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/lib/pkgconfig/baxter_maintenance_msgs.pc'
+[5.033s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/lib/python3.10/site-packages'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/bin'
+[5.034s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.ps1'
+[5.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.dsv'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.sh'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.bash'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.zsh'
+[5.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/baxter_maintenance_msgs/share/colcon-core/packages/baxter_maintenance_msgs)
+[5.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_maintenance_msgs)
+[5.036s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs' for CMake module files
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs' for CMake config files
+[5.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'cmake_prefix_path')
+[5.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.ps1'
+[5.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.dsv'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.sh'
+[5.038s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/lib'
+[5.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'ld_library_path_lib')
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.ps1'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.dsv'
+[5.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.sh'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/bin'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/lib/pkgconfig/baxter_maintenance_msgs.pc'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/lib/python3.10/site-packages'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_maintenance_msgs/bin'
+[5.040s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.ps1'
+[5.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.dsv'
+[5.040s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.sh'
+[5.041s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.bash'
+[5.041s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.zsh'
+[5.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/baxter_maintenance_msgs/share/colcon-core/packages/baxter_maintenance_msgs)
+[25.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_core_msgs -- -j16 -l16
+[25.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/shared_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_core_msgs
+[25.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_core_msgs)
+[25.507s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs' for CMake module files
+[25.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/shared_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/baxter_core_msgs
+[25.508s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs' for CMake config files
+[25.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'cmake_prefix_path')
+[25.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.ps1'
+[25.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.dsv'
+[25.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.sh'
+[25.510s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/lib'
+[25.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'ld_library_path_lib')
+[25.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.ps1'
+[25.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.dsv'
+[25.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.sh'
+[25.511s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/bin'
+[25.511s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/lib/pkgconfig/baxter_core_msgs.pc'
+[25.512s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/lib/python3.10/site-packages'
+[25.512s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/bin'
+[25.512s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.ps1'
+[25.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.dsv'
+[25.513s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.sh'
+[25.513s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.bash'
+[25.514s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.zsh'
+[25.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/baxter_core_msgs/share/colcon-core/packages/baxter_core_msgs)
+[25.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_core_msgs)
+[25.515s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs' for CMake module files
+[25.515s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs' for CMake config files
+[25.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'cmake_prefix_path')
+[25.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.ps1'
+[25.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.dsv'
+[25.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.sh'
+[25.518s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/lib'
+[25.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'ld_library_path_lib')
+[25.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.ps1'
+[25.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.dsv'
+[25.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.sh'
+[25.519s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/bin'
+[25.519s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/lib/pkgconfig/baxter_core_msgs.pc'
+[25.519s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/lib/python3.10/site-packages'
+[25.519s] Level 1:colcon.colcon_core.environment:checking '/shared_ws/install/baxter_core_msgs/bin'
+[25.520s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.ps1'
+[25.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.dsv'
+[25.522s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.sh'
+[25.523s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.bash'
+[25.523s] INFO:colcon.colcon_core.shell:Creating package script '/shared_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.zsh'
+[25.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/shared_ws/install/baxter_core_msgs/share/colcon-core/packages/baxter_core_msgs)
+[25.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.524s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.524s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[25.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.529s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.531s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[25.531s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.532s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared_ws/install/local_setup.ps1'
+[25.533s] INFO:colcon.colcon_core.shell:Creating prefix util module '/shared_ws/install/_local_setup_util_ps1.py'
+[25.534s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared_ws/install/setup.ps1'
+[25.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared_ws/install/local_setup.sh'
+[25.544s] INFO:colcon.colcon_core.shell:Creating prefix util module '/shared_ws/install/_local_setup_util_sh.py'
+[25.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared_ws/install/setup.sh'
+[25.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared_ws/install/local_setup.bash'
+[25.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared_ws/install/setup.bash'
+[25.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/shared_ws/install/local_setup.zsh'
+[25.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/shared_ws/install/setup.zsh'

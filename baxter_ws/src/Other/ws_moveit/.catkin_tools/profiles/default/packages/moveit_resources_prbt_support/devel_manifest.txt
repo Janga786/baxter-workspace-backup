@@ -1,0 +1,4 @@
+moveit_resources/prbt_support
+/home/janga/ws_moveit/devel/.private/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake /home/janga/ws_moveit/devel/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+/home/janga/ws_moveit/devel/.private/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake /home/janga/ws_moveit/devel/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+/home/janga/ws_moveit/devel/.private/moveit_resources_prbt_support/lib/pkgconfig/moveit_resources_prbt_support.pc /home/janga/ws_moveit/devel/lib/pkgconfig/moveit_resources_prbt_support.pc

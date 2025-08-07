@@ -1,0 +1,6 @@
+Invoking command in '/shared_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/rethink_ee_description -DCMAKE_INSTALL_PREFIX=/shared_ws/install/rethink_ee_description
+Invoked command in '/shared_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/rethink_ee_description -DCMAKE_INSTALL_PREFIX=/shared_ws/install/rethink_ee_description
+Invoking command in '/shared_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/rethink_ee_description -- -j16 -l16
+Invoked command in '/shared_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/rethink_ee_description -- -j16 -l16
+Invoking command in '/shared_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/rethink_ee_description
+Invoked command in '/shared_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /shared_ws/build/rethink_ee_description

@@ -1,0 +1,1 @@
+Invoking command in '/shared_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /shared_ws/src/baxter_core_msgs -DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_core_msgs

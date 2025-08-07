@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/dependency_links.txt
+writing entry points to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/entry_points.txt
+writing requirements to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/requires.txt
+writing top-level names to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/top_level.txt
+package init file 'my_ros2_test_package/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_ros2_test_package/wave_baxter.py -> /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package
+running install
+running install_lib
+copying /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package/wave_baxter.py -> /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package
+byte-compiling /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package/wave_baxter.py to wave_baxter.cpython-310.pyc
+running install_data
+error: can't copy 'resource/my_ros2_test_package': doesn't exist or not a regular file

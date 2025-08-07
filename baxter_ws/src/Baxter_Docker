@@ -1,0 +1,69 @@
+sha256:9851fe76bd9f68c245567a481c79959973e25dd7df571ca354f66c5e7a7ab8b6
+
+
+Each time:
+
+sudo ufw disable
+
+sudo docker run -it --rm --name baxter_session -v ~/baxter_ws:/root/baxter_ws --net=host baxter-dev-environment:latest bash
+
+echo "192.168.42.2   baxter.local baxter" >> /etc/hosts
+
+source ~/baxter_ws/devel/setup.bash
+source ~/baxter_ws/baxter.sh
+    
+rosrun baxter_tools enable_robot.py -e
+
+Basic Script:
+rosrun baxter_examples joint_velocity_wobbler.py
+rosrosrun baxter_examples joint_velocity_wobbler.pyrun baxter_examples joint_velocity_puppet.py -l left
+
+
+EASY BAXTER START:
+sudo docker run -it --rm \
+    --name baxter_session \
+    -v ~/baxter_ws:/root/baxter_ws \
+    --net=host \
+    --add-host="baxter.local:192.168.42.2" \
+    baxter-dev-environment:latest \
+    bash
+    
+    
+STOPING SESSION:
+sudo docker stop baxter_session
+
+
+ROS2 Baxter:
+1. Quick Robot Test (Baxter should move immediately):
+  ./test_baxter_movement.sh
+
+  2. MoveIt + Real Robot Demo:
+  docker exec -it baxter_moveit bash -c "cd /shared_ws && source /opt/ros/humble/setup.bash && source install/setup.bash && python3 demo_moveit_control.py"
+
+  📚 Your Complete Reference:
+
+  - WORKING_COMMANDS.md ← USE THIS for daily work
+  - DAILY_QUICKSTART_GUIDE.md ← Complete reference
+  - ./start_baxter_moveit.sh ← Restart everything
+
+  🎮 Using RViz for Path Planning:
+
+  1. Find the RViz window (should be open)
+  2. Motion Planning panel → Select "left_arm"
+  3. Drag the orange robot to where you want it
+  4. Click "Plan" to see the trajectory
+  5. Click "Execute" to move real Baxter!
+
+  💻 Write Your Own Code:
+
+  docker exec -it baxter_moveit bash
+  cd /shared_ws
+  source /opt/ros/humble/setup.bash && source install/setup.bash
+  # Now write Python scripts using the template in WORKING_COMMANDS.md
+
+
+
+🚀 Quick start command:
+  cd /home/janga/baxter_bridge_project
+  ./start_baxter_moveit.sh
+

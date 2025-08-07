@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/EndEffectorCommand.msg
+// generated code does not contain a copyright notice
+
+
+module baxter_core_msgs {
+  module msg {
+    module EndEffectorCommand_Constants {
+      @verbatim (language="comment", text=
+        "Well known commands:")
+      const string CMD_NO_OP = "no_op";
+      const string CMD_SET = "set";
+      const string CMD_CONFIGURE = "configure";
+      const string CMD_REBOOT = "reboot";
+      const string CMD_RESET = "reset";
+      const string CMD_CALIBRATE = "calibrate";
+      const string CMD_CLEAR_CALIBRATION = "clear_calibration";
+      const string CMD_PREPARE_TO_GRIP = "prepare_to_grip";
+      const string CMD_GRIP = "grip";
+      const string CMD_RELEASE = "release";
+      const string CMD_GO = "go";
+      const string CMD_STOP = "stop";
+    };
+    @verbatim (language="comment", text=
+      "Command to be sent to an end effector")
+    struct EndEffectorCommand {
+      @verbatim (language="comment", text=
+        "target end effector id")
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "operation to perform")
+      string command;
+
+      @verbatim (language="comment", text=
+        "JSON arguments to the command")
+      string args;
+
+      @verbatim (language="comment", text=
+        "optional identifier, returned in state when the command is handled")
+      string sender;
+
+      @verbatim (language="comment", text=
+        "optional sequence number, return in state when the command is handled")
+      uint32 sequence;
+    };
+  };
+};

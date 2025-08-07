@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/CollisionDetectionState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module baxter_core_msgs {
+  module msg {
+    struct CollisionDetectionState {
+      std_msgs::msg::Header header;
+
+      boolean collision_state;
+    };
+  };
+};

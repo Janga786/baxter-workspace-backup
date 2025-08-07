@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from baxter_core_msgs/srv/BridgePublishersAuth.srv
+// generated code does not contain a copyright notice
+
+#include "baxter_core_msgs/msg/BridgePublisher.idl"
+
+module baxter_core_msgs {
+  module srv {
+    struct BridgePublishersAuth_Request {
+      string topic;
+
+      string user;
+    };
+    struct BridgePublishersAuth_Response {
+      sequence<baxter_core_msgs::msg::BridgePublisher> publishers;
+
+      string forced_left;
+
+      string forced_right;
+    };
+  };
+};

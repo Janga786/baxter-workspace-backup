@@ -1,0 +1,22 @@
+# Large files
+*.tar
+*.zip
+*.a
+*.pack
+*.so
+
+# Build directories
+build/
+devel/
+
+# Temporary files
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

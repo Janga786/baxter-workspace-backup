@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000040] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000059] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000072] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000083] (-) JobUnselected: {'identifier': 'baxter_moveit_config'}
+[0.000094] (-) JobUnselected: {'identifier': 'my_ros2_test_package'}
+[0.000107] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000119] (baxter_bridge) JobQueued: {'identifier': 'baxter_bridge', 'dependencies': OrderedDict([('baxter_core_msgs', '/shared_ws/install/baxter_core_msgs'), ('baxter_maintenance_msgs', '/shared_ws/install/baxter_maintenance_msgs')])}
+[0.000135] (baxter_bridge) JobStarted: {'identifier': 'baxter_bridge'}
+[0.008754] (baxter_bridge) JobProgress: {'identifier': 'baxter_bridge', 'progress': 'cmake'}
+[0.009161] (baxter_bridge) JobProgress: {'identifier': 'baxter_bridge', 'progress': 'build'}
+[0.009635] (baxter_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/baxter_bridge', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/baxter_bridge', 'env': OrderedDict([('HOSTNAME', 'haileesComputer'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/shared_ws/install/baxter_maintenance_msgs/lib:/shared_ws/install/baxter_core_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/baxter_maintenance_msgs:/shared_ws/install/baxter_core_msgs:/opt/ros/humble'), ('ROS_MASTER_URI', 'http://192.168.42.2:11311'), ('PWD', '/shared_ws/build/baxter_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/shared_ws/install/baxter_maintenance_msgs/local/lib/python3.10/dist-packages:/shared_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/baxter_maintenance_msgs:/shared_ws/install/baxter_core_msgs:/opt/ros/humble')]), 'shell': False}
+[0.042323] (baxter_bridge) StdoutLine: {'line': b'[  2%] Built target baxter_bridge__cpp\n'}
+[0.042856] (baxter_bridge) StdoutLine: {'line': b'[ 10%] Built target baxter_bridge__rosidl_generator_c\n'}
+[0.050657] (baxter_bridge) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_baxter_bridge\n'}
+[0.059664] (baxter_bridge) StdoutLine: {'line': b'[ 36%] Built target baxter_bridge__rosidl_typesupport_cpp\n'}
+[0.059867] (baxter_bridge) StdoutLine: {'line': b'[ 36%] Built target baxter_bridge__rosidl_typesupport_introspection_c\n'}
+[0.059990] (baxter_bridge) StdoutLine: {'line': b'[ 36%] Built target baxter_bridge__rosidl_typesupport_c\n'}
+[0.060259] (baxter_bridge) StdoutLine: {'line': b'[ 44%] Built target baxter_bridge__rosidl_typesupport_introspection_cpp\n'}
+[0.060468] (baxter_bridge) StdoutLine: {'line': b'[ 61%] Built target baxter_bridge__rosidl_typesupport_fastrtps_c\n'}
+[0.060569] (baxter_bridge) StdoutLine: {'line': b'[ 61%] Built target baxter_bridge__rosidl_typesupport_fastrtps_cpp\n'}
+[0.074940] (baxter_bridge) StdoutLine: {'line': b'[ 61%] Built target baxter_bridge\n'}
+[0.075219] (baxter_bridge) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/bridge.dir/src/baxter_bridge.cpp.o\n'}
+[0.075341] (baxter_bridge) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/bridge.dir/src/monitor.cpp.o\n'}
+[0.075514] (baxter_bridge) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/bridge.dir/src/factory_1to2.cpp.o\n'}
+[0.075585] (baxter_bridge) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/bridge.dir/src/factory_2to1.cpp.o\n'}
+[0.075743] (baxter_bridge) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/bridge.dir/src/factory.cpp.o\n'}
+[0.077536] (baxter_bridge) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/bridge.dir/src/bridge.cpp.o\n'}
+[0.078616] (baxter_bridge) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/bridge.dir/src/topic_poller.cpp.o\n'}
+[0.084125] (baxter_bridge) StderrLine: {'line': b'In file included from /shared_ws/src/baxter_bridge/src/monitor.cpp:1:\n'}
+[0.084502] (baxter_bridge) StderrLine: {'line': b'/shared_ws/src/baxter_bridge/include/baxter_bridge/monitor.h:4:10: fatal error: ros/ros.h: No such file or directory\n'}
+[0.084608] (baxter_bridge) StderrLine: {'line': b'    4 | #include <ros/ros.h>\n'}
+[0.084736] (baxter_bridge) StderrLine: {'line': b'      |          ^~~~~~~~~~~\n'}
+[0.084833] (baxter_bridge) StderrLine: {'line': b'In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/solve_ik.h:7,\n'}
+[0.084912] (baxter_bridge) StderrLine: {'line': b'                 from /shared_ws/src/baxter_bridge/src/baxter_bridge.cpp:1:\n'}
+[0.084989] (baxter_bridge) StderrLine: {'line': b'/shared_ws/src/baxter_bridge/ros1_msgs/baxter_core_msgs/SolvePositionIK.h:8:10: fatal error: ros/service_traits.h: No such file or directory\n'}
+[0.085064] (baxter_bridge) StderrLine: {'line': b'    8 | #include <ros/service_traits.h>\n'}
+[0.085137] (baxter_bridge) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~~~~\n'}
+[0.085209] (baxter_bridge) StderrLine: {'line': b'In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/bridge_2to1.h:4,\n'}
+[0.085282] (baxter_bridge) StderrLine: {'line': b'                 from /shared_ws/src/baxter_bridge/src/factory_2to1.cpp:2:\n'}
+[0.085355] (baxter_bridge) StderrLine: {'line': b'/shared_ws/src/baxter_bridge/include/baxter_bridge/bridge.h:4:10: fatal error: ros/node_handle.h: No such file or directory\n'}
+[0.085428] (baxter_bridge) StderrLine: {'line': b'    4 | #include <ros/node_handle.h>\n'}
+[0.085501] (baxter_bridge) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~\n'}
+[0.085572] (baxter_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[0.085644] (baxter_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[0.085716] (baxter_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[0.085791] (baxter_bridge) StderrLine: {'line': b'In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/bridge_1to2.h:4,\n'}
+[0.085869] (baxter_bridge) StderrLine: {'line': b'                 from /shared_ws/src/baxter_bridge/src/factory_1to2.cpp:2:\n'}
+[0.085944] (baxter_bridge) StderrLine: {'line': b'/shared_ws/src/baxter_bridge/include/baxter_bridge/bridge.h:4:10: fatal error: ros/node_handle.h: No such file or directory\n'}
+[0.086019] (baxter_bridge) StderrLine: {'line': b'    4 | #include <ros/node_handle.h>\n'}
+[0.086093] (baxter_bridge) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~\n'}
+[0.086166] (baxter_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[0.086510] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bridge.dir/build.make:104: CMakeFiles/bridge.dir/src/monitor.cpp.o] Error 1\n'}
+[0.086627] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.086706] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bridge.dir/build.make:146: CMakeFiles/bridge.dir/src/factory_2to1.cpp.o] Error 1\n'}
+[0.086787] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bridge.dir/build.make:76: CMakeFiles/bridge.dir/src/baxter_bridge.cpp.o] Error 1\n'}
+[0.086985] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bridge.dir/build.make:132: CMakeFiles/bridge.dir/src/factory_1to2.cpp.o] Error 1\n'}
+[0.087068] (baxter_bridge) StderrLine: {'line': b'/shared_ws/src/baxter_bridge/src/bridge.cpp:1:10: fatal error: ros/node_handle.h: No such file or directory\n'}
+[0.087150] (baxter_bridge) StderrLine: {'line': b'    1 | #include <ros/node_handle.h>\n'}
+[0.087222] (baxter_bridge) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~\n'}
+[0.087292] (baxter_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[0.087367] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bridge.dir/build.make:90: CMakeFiles/bridge.dir/src/bridge.cpp.o] Error 1\n'}
+[0.093108] (baxter_bridge) StdoutLine: {'line': b'[ 78%] Built target baxter_bridge__py\n'}
+[0.099429] (-) TimerEvent: {}
+[0.111216] (baxter_bridge) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/baxter_bridge__rosidl_generator_py.dir/rosidl_generator_py/baxter_bridge/srv/_open_s.c.o\n'}
+[0.111370] (baxter_bridge) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/baxter_bridge__rosidl_generator_py.dir/rosidl_generator_py/baxter_bridge/srv/_exists_s.c.o\n'}
+[0.186607] (baxter_bridge) StderrLine: {'line': b'In file included from /shared_ws/src/baxter_bridge/src/topic_poller.cpp:1:\n'}
+[0.186801] (baxter_bridge) StderrLine: {'line': b'/shared_ws/src/baxter_bridge/include/baxter_bridge/topic_poller.h:6:10: fatal error: ros/ros.h: No such file or directory\n'}
+[0.186912] (baxter_bridge) StderrLine: {'line': b'    6 | #include <ros/ros.h>\n'}
+[0.187016] (baxter_bridge) StderrLine: {'line': b'      |          ^~~~~~~~~~~\n'}
+[0.187119] (baxter_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[0.187879] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bridge.dir/build.make:160: CMakeFiles/bridge.dir/src/topic_poller.cpp.o] Error 1\n'}
+[0.199555] (-) TimerEvent: {}
+[0.201041] (baxter_bridge) StderrLine: {'line': b'In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/factory.h:8,\n'}
+[0.201159] (baxter_bridge) StderrLine: {'line': b'                 from /shared_ws/src/baxter_bridge/src/factory.cpp:1:\n'}
+[0.201242] (baxter_bridge) StderrLine: {'line': b'/shared_ws/src/baxter_bridge/include/baxter_bridge/bridge.h:4:10: fatal error: ros/node_handle.h: No such file or directory\n'}
+[0.201311] (baxter_bridge) StderrLine: {'line': b'    4 | #include <ros/node_handle.h>\n'}
+[0.201376] (baxter_bridge) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~\n'}
+[0.201439] (baxter_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[0.202016] (baxter_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bridge.dir/build.make:118: CMakeFiles/bridge.dir/src/factory.cpp.o] Error 1\n'}
+[0.202276] (baxter_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/bridge.dir/all] Error 2\n'}
+[0.202382] (baxter_bridge) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.277900] (baxter_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[0.278503] (baxter_bridge) StdoutLine: {'line': b'writing baxter_bridge.egg-info/PKG-INFO\n'}
+[0.278748] (baxter_bridge) StdoutLine: {'line': b'writing dependency_links to baxter_bridge.egg-info/dependency_links.txt\n'}
+[0.278919] (baxter_bridge) StdoutLine: {'line': b'writing top-level names to baxter_bridge.egg-info/top_level.txt\n'}
+[0.280648] (baxter_bridge) StdoutLine: {'line': b"reading manifest file 'baxter_bridge.egg-info/SOURCES.txt'\n"}
+[0.281189] (baxter_bridge) StdoutLine: {'line': b"writing manifest file 'baxter_bridge.egg-info/SOURCES.txt'\n"}
+[0.299675] (-) TimerEvent: {}
+[0.301946] (baxter_bridge) StdoutLine: {'line': b'[ 82%] Built target ament_cmake_python_build_baxter_bridge_egg\n'}
+[0.306217] (baxter_bridge) StdoutLine: {'line': b'[ 85%] Linking C shared library rosidl_generator_py/baxter_bridge/libbaxter_bridge__rosidl_generator_py.so\n'}
+[0.340608] (baxter_bridge) StdoutLine: {'line': b'[ 85%] Built target baxter_bridge__rosidl_generator_py\n'}
+[0.341205] (baxter_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.342599] (baxter_bridge) CommandEnded: {'returncode': 2}
+[0.351765] (baxter_bridge) JobEnded: {'identifier': 'baxter_bridge', 'rc': 2}
+[0.362354] (-) EventReactorShutdown: {}

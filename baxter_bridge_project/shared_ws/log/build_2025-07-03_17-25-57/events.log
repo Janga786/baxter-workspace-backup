@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000037] (-) JobUnselected: {'identifier': 'baxter_bridge'}
+[0.000090] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000104] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000115] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000126] (-) JobUnselected: {'identifier': 'my_ros2_test_package'}
+[0.000139] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000151] (baxter_moveit_config) JobQueued: {'identifier': 'baxter_moveit_config', 'dependencies': OrderedDict([('rethink_ee_description', '/shared_ws/install/rethink_ee_description'), ('baxter_description', '/shared_ws/install/baxter_description')])}
+[0.000166] (baxter_moveit_config) JobStarted: {'identifier': 'baxter_moveit_config'}
+[0.006524] (baxter_moveit_config) JobProgress: {'identifier': 'baxter_moveit_config', 'progress': 'cmake'}
+[0.007285] (baxter_moveit_config) JobProgress: {'identifier': 'baxter_moveit_config', 'progress': 'build'}
+[0.007334] (baxter_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/baxter_moveit_config', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/baxter_moveit_config', 'env': OrderedDict([('HOSTNAME', 'haileesComputer'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble'), ('ROS_MASTER_URI', 'http://192.168.42.2:11311'), ('PWD', '/shared_ws/build/baxter_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble')]), 'shell': False}
+[0.027717] (baxter_moveit_config) CommandEnded: {'returncode': 0}
+[0.028269] (baxter_moveit_config) JobProgress: {'identifier': 'baxter_moveit_config', 'progress': 'install'}
+[0.032356] (baxter_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/shared_ws/build/baxter_moveit_config'], 'cwd': '/shared_ws/build/baxter_moveit_config', 'env': OrderedDict([('HOSTNAME', 'haileesComputer'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble'), ('ROS_MASTER_URI', 'http://192.168.42.2:11311'), ('PWD', '/shared_ws/build/baxter_moveit_config'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/baxter_description:/shared_ws/install/rethink_ee_description:/opt/ros/humble')]), 'shell': False}
+[0.036604] (baxter_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.036982] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config\n'}
+[0.037034] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/baxter_ros2_control.yaml\n'}
+[0.037083] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/moveit_controllers.yaml\n'}
+[0.037183] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/joint_limits.yaml\n'}
+[0.037228] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/baxter_hardware.yaml\n'}
+[0.037271] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/kinematics.yaml\n'}
+[0.037313] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/controllers.yaml\n'}
+[0.037354] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/config/ompl_planning.yaml\n'}
+[0.037396] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch\n'}
+[0.037437] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch/demo.launch.py\n'}
+[0.037479] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch/move_group.launch.py\n'}
+[0.037521] (baxter_moveit_config) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/launch/baxter_real.launch.py\n'}
+[0.037564] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/srdf\n'}
+[0.037702] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/srdf/baxter.srdf\n'}
+[0.037749] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/ament_index/resource_index/package_run_dependencies/baxter_moveit_config\n'}
+[0.037794] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/ament_index/resource_index/parent_prefix_path/baxter_moveit_config\n'}
+[0.037839] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/ament_prefix_path.sh\n'}
+[0.037884] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/ament_prefix_path.dsv\n'}
+[0.037929] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/path.sh\n'}
+[0.037973] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/environment/path.dsv\n'}
+[0.038017] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.bash\n'}
+[0.038061] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.sh\n'}
+[0.038104] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.zsh\n'}
+[0.038147] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/local_setup.dsv\n'}
+[0.038191] (baxter_moveit_config) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/package.dsv\n'}
+[0.038234] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/ament_index/resource_index/packages/baxter_moveit_config\n'}
+[0.038315] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/cmake/baxter_moveit_configConfig.cmake\n'}
+[0.038362] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/cmake/baxter_moveit_configConfig-version.cmake\n'}
+[0.038756] (baxter_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/baxter_moveit_config/share/baxter_moveit_config/package.xml\n'}
+[0.038822] (baxter_moveit_config) CommandEnded: {'returncode': 0}
+[0.051120] (baxter_moveit_config) JobEnded: {'identifier': 'baxter_moveit_config', 'rc': 0}
+[0.051580] (-) EventReactorShutdown: {}

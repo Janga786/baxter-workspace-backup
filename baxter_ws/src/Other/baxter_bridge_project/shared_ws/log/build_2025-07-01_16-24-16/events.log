@@ -1,0 +1,864 @@
+[0.000000] (-) TimerEvent: {}
+[0.000197] (baxter_core_msgs) JobQueued: {'identifier': 'baxter_core_msgs', 'dependencies': OrderedDict()}
+[0.000218] (baxter_maintenance_msgs) JobQueued: {'identifier': 'baxter_maintenance_msgs', 'dependencies': OrderedDict()}
+[0.000233] (my_ros2_test_package) JobQueued: {'identifier': 'my_ros2_test_package', 'dependencies': OrderedDict()}
+[0.000245] (rethink_ee_description) JobQueued: {'identifier': 'rethink_ee_description', 'dependencies': OrderedDict()}
+[0.000258] (baxter_bridge) JobQueued: {'identifier': 'baxter_bridge', 'dependencies': OrderedDict([('baxter_core_msgs', '/shared_ws/install/baxter_core_msgs'), ('baxter_maintenance_msgs', '/shared_ws/install/baxter_maintenance_msgs')])}
+[0.000274] (baxter_description) JobQueued: {'identifier': 'baxter_description', 'dependencies': OrderedDict([('rethink_ee_description', '/shared_ws/install/rethink_ee_description')])}
+[0.000594] (baxter_core_msgs) JobStarted: {'identifier': 'baxter_core_msgs'}
+[0.005456] (baxter_maintenance_msgs) JobStarted: {'identifier': 'baxter_maintenance_msgs'}
+[0.007794] (rethink_ee_description) JobStarted: {'identifier': 'rethink_ee_description'}
+[0.010096] (my_ros2_test_package) JobStarted: {'identifier': 'my_ros2_test_package'}
+[0.014519] (baxter_core_msgs) JobProgress: {'identifier': 'baxter_core_msgs', 'progress': 'cmake'}
+[0.014933] (baxter_core_msgs) JobProgress: {'identifier': 'baxter_core_msgs', 'progress': 'build'}
+[0.015374] (baxter_core_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/baxter_core_msgs', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/baxter_core_msgs', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_core_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016176] (baxter_maintenance_msgs) JobProgress: {'identifier': 'baxter_maintenance_msgs', 'progress': 'cmake'}
+[0.016515] (baxter_maintenance_msgs) JobProgress: {'identifier': 'baxter_maintenance_msgs', 'progress': 'build'}
+[0.016692] (baxter_maintenance_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/baxter_maintenance_msgs', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/baxter_maintenance_msgs', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_maintenance_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.017629] (rethink_ee_description) JobProgress: {'identifier': 'rethink_ee_description', 'progress': 'cmake'}
+[0.017997] (rethink_ee_description) JobProgress: {'identifier': 'rethink_ee_description', 'progress': 'build'}
+[0.018160] (rethink_ee_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/rethink_ee_description', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/rethink_ee_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/rethink_ee_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100034] (-) TimerEvent: {}
+[0.200166] (-) TimerEvent: {}
+[0.220605] (baxter_core_msgs) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[0.221136] (baxter_core_msgs) StdoutLine: {'line': b'[  1%] Generating C++ code for ROS interfaces\n'}
+[0.221201] (baxter_core_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_baxter_core_msgs\n'}
+[0.221258] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[0.221353] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  2%] Generating C++ code for ROS interfaces\n'}
+[0.221409] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_baxter_maintenance_msgs\n'}
+[0.221464] (rethink_ee_description) CommandEnded: {'returncode': 0}
+[0.221866] (rethink_ee_description) JobProgress: {'identifier': 'rethink_ee_description', 'progress': 'install'}
+[0.228090] (rethink_ee_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/shared_ws/build/rethink_ee_description'], 'cwd': '/shared_ws/build/rethink_ee_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/rethink_ee_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.235134] (rethink_ee_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.236026] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes\n'}
+[0.236128] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper\n'}
+[0.236213] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.STL\n'}
+[0.236297] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.STL\n'}
+[0.236372] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers\n'}
+[0.236445] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.DAE\n'}
+[0.236518] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.STL\n'}
+[0.236597] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.STL\n'}
+[0.236669] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.STL\n'}
+[0.236746] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.STL\n'}
+[0.236821] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.DAE\n'}
+[0.236896] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.DAE\n'}
+[0.236960] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.DAE\n'}
+[0.237013] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.DAE\n'}
+[0.237065] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.DAE\n'}
+[0.237116] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.STL\n'}
+[0.237167] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.STL\n'}
+[0.237218] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.STL\n'}
+[0.237269] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.STL\n'}
+[0.237320] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.DAE\n'}
+[0.237372] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.STL\n'}
+[0.237424] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.DAE\n'}
+[0.237476] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.DAE\n'}
+[0.237527] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.DAE\n'}
+[0.237578] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.DAE\n'}
+[0.237686] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper\n'}
+[0.237742] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive\n'}
+[0.237793] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper.STL\n'}
+[0.237900] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper_30mm_cup.STL\n'}
+[0.237954] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.DAE\n'}
+[0.238005] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.STL\n'}
+[0.238150] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.STL\n'}
+[0.238206] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.DAE\n'}
+[0.238259] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf\n'}
+[0.238311] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper\n'}
+[0.238362] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/null_gripper.xacro\n'}
+[0.238449] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/example_end_effector.urdf.xacro\n'}
+[0.238503] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper\n'}
+[0.238554] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/rethink_electric_gripper.xacro\n'}
+[0.238605] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers\n'}
+[0.238657] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_wide.xacro\n'}
+[0.238707] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_narrow.xacro\n'}
+[0.238758] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_narrow.xacro\n'}
+[0.238809] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_hard_tip.xacro\n'}
+[0.238861] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_soft_tip.xacro\n'}
+[0.238912] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/half_round_tip.xacro\n'}
+[0.238964] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/none.xacro\n'}
+[0.239016] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/paddle_tip.xacro\n'}
+[0.239068] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_wide.xacro\n'}
+[0.239137] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/example_end_effector.urdf.xacro\n'}
+[0.239188] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper\n'}
+[0.239240] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/pneumatic_gripper_base.xacro\n'}
+[0.239291] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/example_end_effector.urdf.xacro\n'}
+[0.239343] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/rethink_pneumatic_gripper.xacro\n'}
+[0.239394] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/package_run_dependencies/rethink_ee_description\n'}
+[0.239740] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/parent_prefix_path/rethink_ee_description\n'}
+[0.239797] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.sh\n'}
+[0.239849] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.dsv\n'}
+[0.239902] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.sh\n'}
+[0.239953] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.dsv\n'}
+[0.240005] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.bash\n'}
+[0.240057] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.sh\n'}
+[0.240108] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.zsh\n'}
+[0.240160] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.dsv\n'}
+[0.240424] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv\n'}
+[0.240478] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/packages/rethink_ee_description\n'}
+[0.240530] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig.cmake\n'}
+[0.240582] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig-version.cmake\n'}
+[0.240634] (rethink_ee_description) StdoutLine: {'line': b'-- Up-to-date: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.xml\n'}
+[0.240686] (rethink_ee_description) CommandEnded: {'returncode': 0}
+[0.263005] (rethink_ee_description) JobEnded: {'identifier': 'rethink_ee_description', 'rc': 0}
+[0.264511] (baxter_description) JobStarted: {'identifier': 'baxter_description'}
+[0.268043] (baxter_maintenance_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.268429] (baxter_maintenance_msgs) StdoutLine: {'line': b'creating baxter_maintenance_msgs.egg-info\n'}
+[0.268836] (baxter_maintenance_msgs) StdoutLine: {'line': b'writing baxter_maintenance_msgs.egg-info/PKG-INFO\n'}
+[0.268909] (baxter_maintenance_msgs) StdoutLine: {'line': b'writing dependency_links to baxter_maintenance_msgs.egg-info/dependency_links.txt\n'}
+[0.268973] (baxter_maintenance_msgs) StdoutLine: {'line': b'writing top-level names to baxter_maintenance_msgs.egg-info/top_level.txt\n'}
+[0.269034] (baxter_maintenance_msgs) StdoutLine: {'line': b"writing manifest file 'baxter_maintenance_msgs.egg-info/SOURCES.txt'\n"}
+[0.269093] (baxter_maintenance_msgs) StdoutLine: {'line': b"reading manifest file 'baxter_maintenance_msgs.egg-info/SOURCES.txt'\n"}
+[0.269150] (baxter_maintenance_msgs) StdoutLine: {'line': b"writing manifest file 'baxter_maintenance_msgs.egg-info/SOURCES.txt'\n"}
+[0.269207] (baxter_core_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.269270] (baxter_core_msgs) StdoutLine: {'line': b'creating baxter_core_msgs.egg-info\n'}
+[0.269333] (baxter_core_msgs) StdoutLine: {'line': b'writing baxter_core_msgs.egg-info/PKG-INFO\n'}
+[0.269519] (baxter_core_msgs) StdoutLine: {'line': b'writing dependency_links to baxter_core_msgs.egg-info/dependency_links.txt\n'}
+[0.269581] (baxter_core_msgs) StdoutLine: {'line': b'writing top-level names to baxter_core_msgs.egg-info/top_level.txt\n'}
+[0.269642] (baxter_core_msgs) StdoutLine: {'line': b"writing manifest file 'baxter_core_msgs.egg-info/SOURCES.txt'\n"}
+[0.269702] (baxter_core_msgs) StdoutLine: {'line': b"reading manifest file 'baxter_core_msgs.egg-info/SOURCES.txt'\n"}
+[0.269762] (baxter_core_msgs) StdoutLine: {'line': b"writing manifest file 'baxter_core_msgs.egg-info/SOURCES.txt'\n"}
+[0.269822] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_baxter_maintenance_msgs_egg\n'}
+[0.270516] (baxter_description) JobProgress: {'identifier': 'baxter_description', 'progress': 'cmake'}
+[0.271171] (baxter_description) JobProgress: {'identifier': 'baxter_description', 'progress': 'build'}
+[0.271504] (baxter_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/baxter_description', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/baxter_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/rethink_ee_description:/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/rethink_ee_description:/opt/ros/humble')]), 'shell': False}
+[0.289116] (baxter_core_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_baxter_core_msgs_egg\n'}
+[0.297726] (baxter_description) CommandEnded: {'returncode': 0}
+[0.298228] (baxter_description) JobProgress: {'identifier': 'baxter_description', 'progress': 'install'}
+[0.299108] (baxter_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/shared_ws/build/baxter_description'], 'cwd': '/shared_ws/build/baxter_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/rethink_ee_description:/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/rethink_ee_description:/opt/ros/humble')]), 'shell': False}
+[0.300242] (-) TimerEvent: {}
+[0.304272] (baxter_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.304455] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/environment/resource_paths.dsv\n'}
+[0.304610] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes\n'}
+[0.304671] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder\n'}
+[0.304726] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder/S1.DAE\n'}
+[0.305096] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder/S1.STL\n'}
+[0.305502] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder\n'}
+[0.305575] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder/S0.STL\n'}
+[0.307066] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder/S0.DAE\n'}
+[0.309124] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso\n'}
+[0.309189] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link_collision.STL\n'}
+[0.309580] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link.DAE\n'}
+[0.313338] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link.STL\n'}
+[0.316166] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link_collision.DAE\n'}
+[0.316778] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm\n'}
+[0.316947] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm/W0.STL\n'}
+[0.317915] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm/W0.DAE\n'}
+[0.319433] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm\n'}
+[0.319604] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm/W1.DAE\n'}
+[0.320376] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm/W1.STL\n'}
+[0.321091] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow\n'}
+[0.321233] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow/E1.STL\n'}
+[0.321792] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow/E1.DAE\n'}
+[0.322541] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/wrist\n'}
+[0.322675] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/wrist/W2.DAE\n'}
+[0.323395] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/wrist/W2.STL\n'}
+[0.323904] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base\n'}
+[0.324038] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/pedestal_link_collision.STL\n'}
+[0.324204] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/PEDESTAL.DAE\n'}
+[0.329400] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/pedestal_link_collision.DAE\n'}
+[0.329595] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/base/PEDESTAL.STL\n'}
+[0.333205] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow\n'}
+[0.333291] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow/E0.STL\n'}
+[0.333744] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow/E0.DAE\n'}
+[0.334569] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head\n'}
+[0.334633] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H0.STL\n'}
+[0.334840] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H1.STL\n'}
+[0.335041] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H0.DAE\n'}
+[0.335393] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/meshes/head/H1.DAE\n'}
+[0.335640] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf\n'}
+[0.335764] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/baxter.urdf.xacro\n'}
+[0.335823] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/gazebosim.urdf.xacro\n'}
+[0.336359] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/right_end_effector.urdf.xacro\n'}
+[0.336435] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/left_end_effector.urdf.xacro\n'}
+[0.336503] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/pedestal\n'}
+[0.336568] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/pedestal/pedestal.xacro\n'}
+[0.336632] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/baxter_base\n'}
+[0.336696] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/urdf/baxter_base/baxter_base.urdf.xacro\n'}
+[0.336759] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/launch\n'}
+[0.337034] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/launch/config.rviz\n'}
+[0.337099] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/launch/rviz_launch.py\n'}
+[0.337162] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/launch/baxter_state_publisher_launch.py\n'}
+[0.337226] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/ament_index/resource_index/package_run_dependencies/baxter_description\n'}
+[0.337290] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/ament_index/resource_index/parent_prefix_path/baxter_description\n'}
+[0.337353] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/environment/ament_prefix_path.sh\n'}
+[0.337666] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/environment/ament_prefix_path.dsv\n'}
+[0.337733] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/environment/path.sh\n'}
+[0.337807] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/environment/path.dsv\n'}
+[0.337870] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/local_setup.bash\n'}
+[0.337932] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/local_setup.sh\n'}
+[0.337995] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/local_setup.zsh\n'}
+[0.338180] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/local_setup.dsv\n'}
+[0.338246] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/package.dsv\n'}
+[0.338309] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/ament_index/resource_index/packages/baxter_description\n'}
+[0.338372] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/cmake/baxter_descriptionConfig.cmake\n'}
+[0.338603] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/cmake/baxter_descriptionConfig-version.cmake\n'}
+[0.338673] (baxter_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/baxter_description/share/baxter_description/package.xml\n'}
+[0.339851] (baxter_description) CommandEnded: {'returncode': 0}
+[0.357108] (baxter_description) JobEnded: {'identifier': 'baxter_description', 'rc': 0}
+[0.400315] (-) TimerEvent: {}
+[0.500489] (-) TimerEvent: {}
+[0.535087] (my_ros2_test_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ros2_test_package', 'build', '--build-base', '/shared_ws/build/my_ros2_test_package/build', 'install', '--record', '/shared_ws/build/my_ros2_test_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/shared_ws/src/my_ros2_test_package', 'env': {'HOSTNAME': 'b009c0badc2d', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros/ws_moveit2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/shared_ws/build/my_ros2_test_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.600588] (-) TimerEvent: {}
+[0.613620] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  2%] Built target baxter_maintenance_msgs__cpp\n'}
+[0.621180] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  5%] Generating C++ type support dispatch for ROS interfaces\n'}
+[0.621315] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  5%] Generating C++ introspection for ROS interfaces\n'}
+[0.621393] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  6%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[0.700674] (-) TimerEvent: {}
+[0.725710] (my_ros2_test_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.726204] (my_ros2_test_package) StdoutLine: {'line': b'writing ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/PKG-INFO\n'}
+[0.726430] (my_ros2_test_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/dependency_links.txt\n'}
+[0.726821] (my_ros2_test_package) StdoutLine: {'line': b'writing entry points to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/entry_points.txt\n'}
+[0.726920] (my_ros2_test_package) StdoutLine: {'line': b'writing requirements to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/requires.txt\n'}
+[0.727011] (my_ros2_test_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/top_level.txt\n'}
+[0.727968] (my_ros2_test_package) StdoutLine: {'line': b"reading manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.728788] (my_ros2_test_package) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.728892] (my_ros2_test_package) StdoutLine: {'line': b'running build\n'}
+[0.729049] (my_ros2_test_package) StdoutLine: {'line': b'running build_py\n'}
+[0.729202] (my_ros2_test_package) StdoutLine: {'line': b'copying my_ros2_test_package/__init__.py -> /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package\n'}
+[0.729295] (my_ros2_test_package) StdoutLine: {'line': b'running install\n'}
+[0.729445] (my_ros2_test_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.729956] (my_ros2_test_package) StdoutLine: {'line': b'copying /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package/__init__.py -> /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package\n'}
+[0.730434] (my_ros2_test_package) StdoutLine: {'line': b'byte-compiling /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package/__init__.py to __init__.cpython-310.pyc\n'}
+[0.730766] (my_ros2_test_package) StdoutLine: {'line': b'running install_data\n'}
+[0.730872] (my_ros2_test_package) StdoutLine: {'line': b'copying resource/my_ros2_test_package -> /shared_ws/install/my_ros2_test_package/share/ament_index/resource_index/packages\n'}
+[0.731082] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/install/my_ros2_test_package/share/my_ros2_test_package/cmake\n'}
+[0.731180] (my_ros2_test_package) StderrLine: {'line': b"error: can't copy 'cmake/my_ros2_test_packageConfig.cmake': doesn't exist or not a regular file\n"}
+[0.747993] (my_ros2_test_package) CommandEnded: {'returncode': 1}
+[0.748325] (my_ros2_test_package) JobEnded: {'identifier': 'my_ros2_test_package', 'rc': 1}
+[0.796227] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/update_status__functions.c.o\n'}
+[0.796496] (baxter_maintenance_msgs) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__functions.c.o\n'}
+[0.798179] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/update_sources__functions.c.o\n'}
+[0.799210] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/tare_data__functions.c.o\n'}
+[0.799542] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__functions.c.o\n'}
+[0.799850] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/tare_enable__functions.c.o\n'}
+[0.800426] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/update_source__functions.c.o\n'}
+[0.800870] (-) TimerEvent: {}
+[0.858282] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 16%] Linking C shared library libbaxter_maintenance_msgs__rosidl_generator_c.so\n'}
+[0.892191] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 16%] Built target baxter_maintenance_msgs__rosidl_generator_c\n'}
+[0.900358] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 18%] Generating C introspection for ROS interfaces\n'}
+[0.900549] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 18%] Generating C type support dispatch for ROS interfaces\n'}
+[0.900942] (-) TimerEvent: {}
+[0.903810] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 20%] Generating C type support for eProsima Fast-RTPS\n'}
+[1.001041] (-) TimerEvent: {}
+[1.014545] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_status__type_support.cpp.o\n'}
+[1.014740] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_data__type_support.cpp.o\n'}
+[1.014850] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_sources__type_support.cpp.o\n'}
+[1.014944] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_enable__type_support.cpp.o\n'}
+[1.015137] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_enable__type_support.cpp.o\n'}
+[1.015244] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_source__type_support.cpp.o\n'}
+[1.016339] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_data__type_support.cpp.o\n'}
+[1.101144] (-) TimerEvent: {}
+[1.138127] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__type_support.cpp.o\n'}
+[1.143142] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/tare_data__type_support.cpp.o\n'}
+[1.152716] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/update_status__type_support.cpp.o\n'}
+[1.153777] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/update_sources__type_support.cpp.o\n'}
+[1.169383] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__type_support.cpp.o\n'}
+[1.201261] (-) TimerEvent: {}
+[1.304579] (-) TimerEvent: {}
+[1.405668] (-) TimerEvent: {}
+[1.505889] (-) TimerEvent: {}
+[1.580472] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/tare_enable__type_support.cpp.o\n'}
+[1.594445] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/update_source__type_support.cpp.o\n'}
+[1.606014] (-) TimerEvent: {}
+[1.635003] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/update_status__type_support.cpp.o\n'}
+[1.646872] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/update_sources__type_support.cpp.o\n'}
+[1.685369] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/tare_data__type_support.cpp.o\n'}
+[1.705194] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/calibrate_arm_enable__type_support.cpp.o\n'}
+[1.706095] (-) TimerEvent: {}
+[1.725253] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/calibrate_arm_data__type_support.cpp.o\n'}
+[1.790745] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/update_status__type_support.cpp.o\n'}
+[1.806231] (-) TimerEvent: {}
+[1.839665] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 46%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_cpp.so\n'}
+[1.915753] (-) TimerEvent: {}
+[1.920981] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/update_sources__type_support.cpp.o\n'}
+[1.968432] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 48%] Built target baxter_maintenance_msgs__rosidl_typesupport_cpp\n'}
+[1.986067] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/tare_data__type_support.cpp.o\n'}
+[2.015881] (-) TimerEvent: {}
+[2.018422] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/calibrate_arm_enable__type_support.cpp.o\n'}
+[2.116012] (-) TimerEvent: {}
+[2.131784] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/calibrate_arm_data__type_support.cpp.o\n'}
+[2.177848] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/tare_enable__type_support.cpp.o\n'}
+[2.216143] (-) TimerEvent: {}
+[2.226592] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/update_source__type_support.cpp.o\n'}
+[2.306504] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/tare_enable__type_support.cpp.o\n'}
+[2.316305] (-) TimerEvent: {}
+[2.339836] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/update_source__type_support.cpp.o\n'}
+[2.372022] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 58%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_c.so\n'}
+[2.416438] (-) TimerEvent: {}
+[2.486094] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/update_sources__type_support_c.cpp.o\n'}
+[2.506759] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/tare_data__type_support_c.cpp.o\n'}
+[2.510296] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/update_status__type_support_c.cpp.o\n'}
+[2.516566] (-) TimerEvent: {}
+[2.536106] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 62%] Built target baxter_maintenance_msgs__rosidl_typesupport_c\n'}
+[2.588638] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__type_support_c.cpp.o\n'}
+[2.599760] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__type_support_c.cpp.o\n'}
+[2.609989] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/tare_enable__type_support_c.cpp.o\n'}
+[2.612418] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 67%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/update_status__type_support.c.o\n'}
+[2.616697] (-) TimerEvent: {}
+[2.701130] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 68%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/update_sources__type_support.c.o\n'}
+[2.716840] (-) TimerEvent: {}
+[2.740063] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 69%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.782233] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 70%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/tare_data__type_support.c.o\n'}
+[2.816969] (-) TimerEvent: {}
+[2.876398] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 72%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__type_support.c.o\n'}
+[2.917095] (-) TimerEvent: {}
+[2.952946] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 73%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__type_support.c.o\n'}
+[2.987248] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 74%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/tare_enable__type_support.c.o\n'}
+[2.998043] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/update_source__type_support_c.cpp.o\n'}
+[3.017259] (-) TimerEvent: {}
+[3.030164] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/update_source__type_support.c.o\n'}
+[3.043821] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 77%] Built target baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.117570] (-) TimerEvent: {}
+[3.131172] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 78%] Linking C shared library libbaxter_maintenance_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.186624] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 78%] Built target baxter_maintenance_msgs__rosidl_typesupport_introspection_c\n'}
+[3.217618] (-) TimerEvent: {}
+[3.317863] (-) TimerEvent: {}
+[3.418879] (-) TimerEvent: {}
+[3.489121] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 79%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.519014] (-) TimerEvent: {}
+[3.604154] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 79%] Built target baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.619108] (-) TimerEvent: {}
+[3.719306] (-) TimerEvent: {}
+[3.800021] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 81%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.819434] (-) TimerEvent: {}
+[3.880833] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 81%] Built target baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.904094] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 81%] Built target baxter_maintenance_msgs\n'}
+[3.919528] (-) TimerEvent: {}
+[3.925254] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 82%] Generating Python code for ROS interfaces\n'}
+[4.019656] (-) TimerEvent: {}
+[4.119846] (-) TimerEvent: {}
+[4.220028] (-) TimerEvent: {}
+[4.320209] (-) TimerEvent: {}
+[4.420391] (-) TimerEvent: {}
+[4.520566] (-) TimerEvent: {}
+[4.620740] (-) TimerEvent: {}
+[4.720922] (-) TimerEvent: {}
+[4.821086] (-) TimerEvent: {}
+[4.921256] (-) TimerEvent: {}
+[5.021426] (-) TimerEvent: {}
+[5.121598] (-) TimerEvent: {}
+[5.221765] (-) TimerEvent: {}
+[5.301699] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 82%] Built target baxter_maintenance_msgs__py\n'}
+[5.321889] (-) TimerEvent: {}
+[5.334093] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_tare_enable_s.c.o\n'}
+[5.334360] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_tare_data_s.c.o\n'}
+[5.334521] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_update_sources_s.c.o\n'}
+[5.334610] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_update_source_s.c.o\n'}
+[5.334876] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_update_status_s.c.o\n'}
+[5.336830] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_calibrate_arm_enable_s.c.o\n'}
+[5.340258] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_calibrate_arm_data_s.c.o\n'}
+[5.422011] (-) TimerEvent: {}
+[5.509070] (baxter_core_msgs) StdoutLine: {'line': b'[  1%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/end_effector_properties__functions.c.o\n'}
+[5.514296] (baxter_core_msgs) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/analog_output_command__functions.c.o\n'}
+[5.514964] (baxter_core_msgs) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/end_effector_state__functions.c.o\n'}
+[5.515830] (baxter_core_msgs) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/navigator_state__functions.c.o\n'}
+[5.517264] (baxter_core_msgs) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/end_effector_command__functions.c.o\n'}
+[5.517648] (baxter_core_msgs) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/digital_io_states__functions.c.o\n'}
+[5.517943] (baxter_core_msgs) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/endpoint_state__functions.c.o\n'}
+[5.522134] (-) TimerEvent: {}
+[5.529169] (baxter_core_msgs) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/collision_detection_state__functions.c.o\n'}
+[5.533150] (baxter_core_msgs) StdoutLine: {'line': b'[  4%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/sea_joint_state__functions.c.o\n'}
+[5.583042] (baxter_core_msgs) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/urdf_configuration__functions.c.o\n'}
+[5.583365] (baxter_core_msgs) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/camera_control__functions.c.o\n'}
+[5.583573] (baxter_core_msgs) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/collision_avoidance_state__functions.c.o\n'}
+[5.591386] (baxter_core_msgs) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/navigator_states__functions.c.o\n'}
+[5.603266] (baxter_core_msgs) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/analog_io_state__functions.c.o\n'}
+[5.622262] (-) TimerEvent: {}
+[5.629072] (baxter_core_msgs) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/camera_settings__functions.c.o\n'}
+[5.638436] (baxter_core_msgs) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/joint_command__functions.c.o\n'}
+[5.638762] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 92%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/libbaxter_maintenance_msgs__rosidl_generator_py.so\n'}
+[5.646046] (baxter_core_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/digital_io_state__functions.c.o\n'}
+[5.657941] (baxter_core_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/robust_controller_status__functions.c.o\n'}
+[5.660281] (baxter_core_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/assembly_states__functions.c.o\n'}
+[5.666010] (baxter_core_msgs) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/digital_output_command__functions.c.o\n'}
+[5.680706] (baxter_core_msgs) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/assembly_state__functions.c.o\n'}
+[5.682761] (baxter_core_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/head_pan_command__functions.c.o\n'}
+[5.683044] (baxter_core_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/head_state__functions.c.o\n'}
+[5.687082] (baxter_core_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/analog_io_states__functions.c.o\n'}
+[5.694683] (baxter_core_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/bridge_publisher__functions.c.o\n'}
+[5.701962] (baxter_core_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/endpoint_states__functions.c.o\n'}
+[5.722600] (baxter_core_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/list_cameras__functions.c.o\n'}
+[5.722902] (-) TimerEvent: {}
+[5.728374] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 92%] Built target baxter_maintenance_msgs__rosidl_generator_py\n'}
+[5.734916] (baxter_core_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/close_camera__functions.c.o\n'}
+[5.737758] (baxter_core_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/open_camera__functions.c.o\n'}
+[5.777119] (baxter_core_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/bridge_publishers_force__functions.c.o\n'}
+[5.777593] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/baxter_maintenance_msgs/_baxter_maintenance_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[5.785445] (baxter_core_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/solve_position_ik__functions.c.o\n'}
+[5.790512] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/baxter_maintenance_msgs/_baxter_maintenance_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[5.792263] (baxter_core_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/bridge_publishers_auth__functions.c.o\n'}
+[5.796446] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/baxter_maintenance_msgs/_baxter_maintenance_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[5.823052] (-) TimerEvent: {}
+[5.919052] (baxter_core_msgs) StdoutLine: {'line': b'[ 12%] Built target baxter_core_msgs__cpp\n'}
+[5.923166] (-) TimerEvent: {}
+[5.926589] (baxter_core_msgs) StdoutLine: {'line': b'[ 12%] Linking C shared library libbaxter_core_msgs__rosidl_generator_c.so\n'}
+[5.934084] (baxter_core_msgs) StdoutLine: {'line': b'[ 12%] Generating C++ type support dispatch for ROS interfaces\n'}
+[5.934571] (baxter_core_msgs) StdoutLine: {'line': b'[ 13%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[5.935485] (baxter_core_msgs) StdoutLine: {'line': b'[ 14%] Generating C++ introspection for ROS interfaces\n'}
+[5.991426] (baxter_core_msgs) StdoutLine: {'line': b'[ 14%] Built target baxter_core_msgs__rosidl_generator_c\n'}
+[6.007838] (baxter_core_msgs) StdoutLine: {'line': b'[ 16%] Generating C type support for eProsima Fast-RTPS\n'}
+[6.008159] (baxter_core_msgs) StdoutLine: {'line': b'[ 16%] Generating C type support dispatch for ROS interfaces\n'}
+[6.010427] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/baxter_maintenance_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.010875] (baxter_maintenance_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/baxter_maintenance_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.014354] (baxter_core_msgs) StdoutLine: {'line': b'[ 17%] Generating C introspection for ROS interfaces\n'}
+[6.023285] (-) TimerEvent: {}
+[6.043006] (baxter_maintenance_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/baxter_maintenance_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.057627] (baxter_maintenance_msgs) StdoutLine: {'line': b'[100%] Built target baxter_maintenance_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.076148] (baxter_maintenance_msgs) StdoutLine: {'line': b'[100%] Built target baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.107858] (baxter_maintenance_msgs) StdoutLine: {'line': b'[100%] Built target baxter_maintenance_msgs__rosidl_typesupport_c__pyext\n'}
+[6.123271] (baxter_maintenance_msgs) JobEnded: {'identifier': 'baxter_maintenance_msgs', 'rc': 'SIGINT'}
+[6.123845] (-) TimerEvent: {}
+[6.223992] (-) TimerEvent: {}
+[6.324205] (-) TimerEvent: {}
+[6.424398] (-) TimerEvent: {}
+[6.524593] (-) TimerEvent: {}
+[6.624761] (-) TimerEvent: {}
+[6.724971] (-) TimerEvent: {}
+[6.825165] (-) TimerEvent: {}
+[6.925376] (-) TimerEvent: {}
+[7.025571] (-) TimerEvent: {}
+[7.125775] (-) TimerEvent: {}
+[7.225976] (-) TimerEvent: {}
+[7.326175] (-) TimerEvent: {}
+[7.426377] (-) TimerEvent: {}
+[7.526585] (-) TimerEvent: {}
+[7.626798] (-) TimerEvent: {}
+[7.726932] (-) TimerEvent: {}
+[7.827125] (-) TimerEvent: {}
+[7.927319] (-) TimerEvent: {}
+[8.027511] (-) TimerEvent: {}
+[8.127705] (-) TimerEvent: {}
+[8.227907] (-) TimerEvent: {}
+[8.328112] (-) TimerEvent: {}
+[8.428307] (-) TimerEvent: {}
+[8.528504] (-) TimerEvent: {}
+[8.628702] (-) TimerEvent: {}
+[8.728898] (-) TimerEvent: {}
+[8.829105] (-) TimerEvent: {}
+[8.929305] (-) TimerEvent: {}
+[9.029504] (-) TimerEvent: {}
+[9.123163] (baxter_core_msgs) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/end_effector_state__type_support.cpp.o\n'}
+[9.125196] (baxter_core_msgs) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/end_effector_properties__type_support.cpp.o\n'}
+[9.125360] (baxter_core_msgs) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/digital_io_states__type_support.cpp.o\n'}
+[9.126127] (baxter_core_msgs) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/navigator_state__type_support.cpp.o\n'}
+[9.126264] (baxter_core_msgs) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/end_effector_command__type_support.cpp.o\n'}
+[9.127621] (baxter_core_msgs) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/endpoint_state__type_support.cpp.o\n'}
+[9.128017] (baxter_core_msgs) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/analog_output_command__type_support.cpp.o\n'}
+[9.129693] (baxter_core_msgs) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/collision_avoidance_state__type_support.cpp.o\n'}
+[9.129896] (-) TimerEvent: {}
+[9.129941] (baxter_core_msgs) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/sea_joint_state__type_support.cpp.o\n'}
+[9.131142] (baxter_core_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/urdf_configuration__type_support.cpp.o\n'}
+[9.135599] (baxter_core_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/collision_detection_state__type_support.cpp.o\n'}
+[9.185417] (baxter_core_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/navigator_states__type_support.cpp.o\n'}
+[9.188476] (baxter_core_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/camera_settings__type_support.cpp.o\n'}
+[9.188682] (baxter_core_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/joint_command__type_support.cpp.o\n'}
+[9.188791] (baxter_core_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/camera_control__type_support.cpp.o\n'}
+[9.188889] (baxter_core_msgs) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/analog_io_state__type_support.cpp.o\n'}
+[9.189142] (baxter_core_msgs) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/robust_controller_status__type_support.cpp.o\n'}
+[9.189446] (baxter_core_msgs) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/digital_io_state__type_support.cpp.o\n'}
+[9.202639] (baxter_core_msgs) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/assembly_states__type_support.cpp.o\n'}
+[9.204288] (baxter_core_msgs) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/head_pan_command__type_support.cpp.o\n'}
+[9.204525] (baxter_core_msgs) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/digital_output_command__type_support.cpp.o\n'}
+[9.230023] (-) TimerEvent: {}
+[9.235319] (baxter_core_msgs) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/assembly_state__type_support.cpp.o\n'}
+[9.246696] (baxter_core_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/head_state__type_support.cpp.o\n'}
+[9.247474] (baxter_core_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/analog_io_states__type_support.cpp.o\n'}
+[9.247848] (baxter_core_msgs) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/bridge_publisher__type_support.cpp.o\n'}
+[9.249160] (baxter_core_msgs) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/endpoint_states__type_support.cpp.o\n'}
+[9.253065] (baxter_core_msgs) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/list_cameras__type_support.cpp.o\n'}
+[9.261056] (baxter_core_msgs) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/close_camera__type_support.cpp.o\n'}
+[9.264173] (baxter_core_msgs) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/bridge_publishers_auth__type_support.cpp.o\n'}
+[9.264448] (baxter_core_msgs) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/bridge_publishers_force__type_support.cpp.o\n'}
+[9.264825] (baxter_core_msgs) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/open_camera__type_support.cpp.o\n'}
+[9.314810] (baxter_core_msgs) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/solve_position_ik__type_support.cpp.o\n'}
+[9.339463] (-) TimerEvent: {}
+[9.384366] (baxter_core_msgs) StdoutLine: {'line': b'[ 28%] Linking CXX shared library libbaxter_core_msgs__rosidl_typesupport_c.so\n'}
+[9.404912] (baxter_core_msgs) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/digital_io_states__type_support.cpp.o\n'}
+[9.405410] (baxter_core_msgs) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/end_effector_properties__type_support.cpp.o\n'}
+[9.405687] (baxter_core_msgs) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/end_effector_command__type_support.cpp.o\n'}
+[9.406062] (baxter_core_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/analog_output_command__type_support.cpp.o\n'}
+[9.406249] (baxter_core_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/endpoint_state__type_support.cpp.o\n'}
+[9.406433] (baxter_core_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/collision_detection_state__type_support.cpp.o\n'}
+[9.406632] (baxter_core_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/end_effector_state__type_support.cpp.o\n'}
+[9.407009] (baxter_core_msgs) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/collision_avoidance_state__type_support.cpp.o\n'}
+[9.412155] (baxter_core_msgs) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/sea_joint_state__type_support.cpp.o\n'}
+[9.419217] (baxter_core_msgs) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/navigator_state__type_support.cpp.o\n'}
+[9.430742] (baxter_core_msgs) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/urdf_configuration__type_support.cpp.o\n'}
+[9.439267] (-) TimerEvent: {}
+[9.479474] (baxter_core_msgs) StdoutLine: {'line': b'[ 32%] Built target baxter_core_msgs__rosidl_typesupport_c\n'}
+[9.495525] (baxter_core_msgs) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/camera_control__type_support.cpp.o\n'}
+[9.539384] (-) TimerEvent: {}
+[9.639612] (-) TimerEvent: {}
+[9.739848] (-) TimerEvent: {}
+[9.840091] (-) TimerEvent: {}
+[9.940340] (-) TimerEvent: {}
+[10.040579] (-) TimerEvent: {}
+[10.139062] (baxter_core_msgs) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/navigator_states__type_support.cpp.o\n'}
+[10.140055] (baxter_core_msgs) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/analog_io_state__type_support.cpp.o\n'}
+[10.140669] (-) TimerEvent: {}
+[10.141873] (baxter_core_msgs) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/camera_settings__type_support.cpp.o\n'}
+[10.168952] (baxter_core_msgs) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/joint_command__type_support.cpp.o\n'}
+[10.206450] (baxter_core_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/digital_io_state__type_support.cpp.o\n'}
+[10.218947] (baxter_core_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/robust_controller_status__type_support.cpp.o\n'}
+[10.240800] (-) TimerEvent: {}
+[10.264179] (baxter_core_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/assembly_states__type_support.cpp.o\n'}
+[10.271653] (baxter_core_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/digital_output_command__type_support.cpp.o\n'}
+[10.288403] (baxter_core_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/head_pan_command__type_support.cpp.o\n'}
+[10.296395] (baxter_core_msgs) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/assembly_state__type_support.cpp.o\n'}
+[10.337824] (baxter_core_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/head_state__type_support.cpp.o\n'}
+[10.340902] (-) TimerEvent: {}
+[10.441281] (-) TimerEvent: {}
+[10.445948] (baxter_core_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/analog_io_states__type_support.cpp.o\n'}
+[10.541403] (-) TimerEvent: {}
+[10.641645] (-) TimerEvent: {}
+[10.741905] (-) TimerEvent: {}
+[10.842156] (-) TimerEvent: {}
+[10.885730] (baxter_core_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/bridge_publisher__type_support.cpp.o\n'}
+[10.931895] (baxter_core_msgs) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/endpoint_states__type_support.cpp.o\n'}
+[10.942282] (-) TimerEvent: {}
+[10.993919] (baxter_core_msgs) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/list_cameras__type_support.cpp.o\n'}
+[11.021127] (baxter_core_msgs) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/close_camera__type_support.cpp.o\n'}
+[11.035800] (baxter_core_msgs) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/open_camera__type_support.cpp.o\n'}
+[11.042415] (-) TimerEvent: {}
+[11.067352] (baxter_core_msgs) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/bridge_publishers_force__type_support.cpp.o\n'}
+[11.068603] (baxter_core_msgs) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/bridge_publishers_auth__type_support.cpp.o\n'}
+[11.070705] (baxter_core_msgs) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/solve_position_ik__type_support.cpp.o\n'}
+[11.105059] (baxter_core_msgs) StdoutLine: {'line': b'[ 40%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/end_effector_state__type_support.c.o\n'}
+[11.142529] (-) TimerEvent: {}
+[11.150554] (baxter_core_msgs) StdoutLine: {'line': b'[ 40%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/end_effector_properties__type_support.c.o\n'}
+[11.179005] (baxter_core_msgs) StdoutLine: {'line': b'[ 41%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/digital_io_states__type_support.c.o\n'}
+[11.200501] (baxter_core_msgs) StdoutLine: {'line': b'[ 41%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/end_effector_command__type_support.c.o\n'}
+[11.242657] (-) TimerEvent: {}
+[11.289654] (baxter_core_msgs) StdoutLine: {'line': b'[ 42%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/navigator_state__type_support.c.o\n'}
+[11.302204] (baxter_core_msgs) StdoutLine: {'line': b'[ 42%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/analog_output_command__type_support.c.o\n'}
+[11.342786] (-) TimerEvent: {}
+[11.405388] (baxter_core_msgs) StdoutLine: {'line': b'[ 43%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/collision_detection_state__type_support.c.o\n'}
+[11.410178] (baxter_core_msgs) StdoutLine: {'line': b'[ 43%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/endpoint_state__type_support.c.o\n'}
+[11.427343] (baxter_core_msgs) StdoutLine: {'line': b'[ 43%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/sea_joint_state__type_support.c.o\n'}
+[11.442912] (-) TimerEvent: {}
+[11.504839] (baxter_core_msgs) StdoutLine: {'line': b'[ 43%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/collision_avoidance_state__type_support.c.o\n'}
+[11.543040] (-) TimerEvent: {}
+[11.546091] (baxter_core_msgs) StdoutLine: {'line': b'[ 44%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/urdf_configuration__type_support.c.o\n'}
+[11.584462] (baxter_core_msgs) StdoutLine: {'line': b'[ 44%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/camera_control__type_support.c.o\n'}
+[11.601861] (baxter_core_msgs) StdoutLine: {'line': b'[ 44%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/navigator_states__type_support.c.o\n'}
+[11.636944] (baxter_core_msgs) StdoutLine: {'line': b'[ 45%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/analog_io_state__type_support.c.o\n'}
+[11.638855] (baxter_core_msgs) StdoutLine: {'line': b'[ 45%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/camera_settings__type_support.c.o\n'}
+[11.641555] (baxter_core_msgs) StdoutLine: {'line': b'[ 46%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/joint_command__type_support.c.o\n'}
+[11.643136] (-) TimerEvent: {}
+[11.686655] (baxter_core_msgs) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/end_effector_state__type_support_c.cpp.o\n'}
+[11.687914] (baxter_core_msgs) StdoutLine: {'line': b'[ 46%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/digital_io_state__type_support.c.o\n'}
+[11.712919] (baxter_core_msgs) StdoutLine: {'line': b'[ 46%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/robust_controller_status__type_support.c.o\n'}
+[11.727690] (baxter_core_msgs) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/assembly_states__type_support.c.o\n'}
+[11.738763] (baxter_core_msgs) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/head_pan_command__type_support.c.o\n'}
+[11.739690] (baxter_core_msgs) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/digital_output_command__type_support.c.o\n'}
+[11.743261] (-) TimerEvent: {}
+[11.768011] (baxter_core_msgs) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/assembly_state__type_support.c.o\n'}
+[11.786121] (baxter_core_msgs) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/head_state__type_support.c.o\n'}
+[11.795259] (baxter_core_msgs) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/end_effector_properties__type_support_c.cpp.o\n'}
+[11.807811] (baxter_core_msgs) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/analog_io_states__type_support.c.o\n'}
+[11.816344] (baxter_core_msgs) StdoutLine: {'line': b'[ 49%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/bridge_publisher__type_support.c.o\n'}
+[11.818563] (baxter_core_msgs) StdoutLine: {'line': b'[ 49%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/endpoint_states__type_support.c.o\n'}
+[11.825131] (baxter_core_msgs) StdoutLine: {'line': b'[ 49%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/list_cameras__type_support.c.o\n'}
+[11.843401] (-) TimerEvent: {}
+[11.853585] (baxter_core_msgs) StdoutLine: {'line': b'[ 50%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/close_camera__type_support.c.o\n'}
+[11.867284] (baxter_core_msgs) StdoutLine: {'line': b'[ 50%] Linking CXX shared library libbaxter_core_msgs__rosidl_typesupport_cpp.so\n'}
+[11.869304] (baxter_core_msgs) StdoutLine: {'line': b'[ 50%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/open_camera__type_support.c.o\n'}
+[11.878067] (baxter_core_msgs) StdoutLine: {'line': b'[ 50%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/bridge_publishers_auth__type_support.c.o\n'}
+[11.881546] (baxter_core_msgs) StdoutLine: {'line': b'[ 51%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/bridge_publishers_force__type_support.c.o\n'}
+[11.902435] (baxter_core_msgs) StdoutLine: {'line': b'[ 51%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/solve_position_ik__type_support.c.o\n'}
+[11.916980] (baxter_core_msgs) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/digital_io_states__type_support_c.cpp.o\n'}
+[11.924352] (baxter_core_msgs) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/end_effector_command__type_support_c.cpp.o\n'}
+[11.943535] (-) TimerEvent: {}
+[11.954726] (baxter_core_msgs) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/navigator_state__type_support_c.cpp.o\n'}
+[11.966825] (baxter_core_msgs) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/analog_output_command__type_support_c.cpp.o\n'}
+[11.977012] (baxter_core_msgs) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/endpoint_state__type_support_c.cpp.o\n'}
+[11.990657] (baxter_core_msgs) StdoutLine: {'line': b'[ 53%] Built target baxter_core_msgs__rosidl_typesupport_cpp\n'}
+[12.018427] (baxter_core_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/collision_detection_state__type_support_c.cpp.o\n'}
+[12.043673] (-) TimerEvent: {}
+[12.049841] (baxter_core_msgs) StdoutLine: {'line': b'[ 55%] Linking C shared library libbaxter_core_msgs__rosidl_typesupport_introspection_c.so\n'}
+[12.074048] (baxter_core_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/sea_joint_state__type_support_c.cpp.o\n'}
+[12.075831] (baxter_core_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/collision_avoidance_state__type_support_c.cpp.o\n'}
+[12.079525] (baxter_core_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/end_effector_state__type_support.cpp.o\n'}
+[12.090044] (baxter_core_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/end_effector_properties__type_support.cpp.o\n'}
+[12.095365] (baxter_core_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/camera_control__type_support_c.cpp.o\n'}
+[12.123154] (baxter_core_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/urdf_configuration__type_support_c.cpp.o\n'}
+[12.143808] (-) TimerEvent: {}
+[12.164101] (baxter_core_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/end_effector_state__type_support.cpp.o\n'}
+[12.186817] (baxter_core_msgs) StdoutLine: {'line': b'[ 56%] Built target baxter_core_msgs__rosidl_typesupport_introspection_c\n'}
+[12.232226] (baxter_core_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/end_effector_properties__type_support.cpp.o\n'}
+[12.243942] (-) TimerEvent: {}
+[12.347418] (-) TimerEvent: {}
+[12.450211] (-) TimerEvent: {}
+[12.551771] (-) TimerEvent: {}
+[12.652044] (-) TimerEvent: {}
+[12.752312] (-) TimerEvent: {}
+[12.816427] (baxter_core_msgs) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/navigator_states__type_support_c.cpp.o\n'}
+[12.825858] (baxter_core_msgs) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/analog_io_state__type_support_c.cpp.o\n'}
+[12.852447] (-) TimerEvent: {}
+[12.887278] (baxter_core_msgs) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/camera_settings__type_support_c.cpp.o\n'}
+[12.924188] (baxter_core_msgs) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/joint_command__type_support_c.cpp.o\n'}
+[12.933330] (baxter_core_msgs) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/digital_io_state__type_support_c.cpp.o\n'}
+[12.943479] (baxter_core_msgs) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/robust_controller_status__type_support_c.cpp.o\n'}
+[12.943823] (baxter_core_msgs) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/assembly_states__type_support_c.cpp.o\n'}
+[12.952578] (-) TimerEvent: {}
+[13.052836] (-) TimerEvent: {}
+[13.073337] (baxter_core_msgs) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/digital_output_command__type_support_c.cpp.o\n'}
+[13.128203] (baxter_core_msgs) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/head_pan_command__type_support_c.cpp.o\n'}
+[13.152967] (-) TimerEvent: {}
+[13.175454] (baxter_core_msgs) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/assembly_state__type_support_c.cpp.o\n'}
+[13.177902] (baxter_core_msgs) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/head_state__type_support_c.cpp.o\n'}
+[13.194384] (baxter_core_msgs) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/digital_io_states__type_support.cpp.o\n'}
+[13.225784] (baxter_core_msgs) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/analog_io_states__type_support_c.cpp.o\n'}
+[13.253108] (-) TimerEvent: {}
+[13.353455] (-) TimerEvent: {}
+[13.435087] (baxter_core_msgs) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/end_effector_command__type_support.cpp.o\n'}
+[13.444134] (baxter_core_msgs) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/digital_io_states__type_support.cpp.o\n'}
+[13.453586] (-) TimerEvent: {}
+[13.473186] (baxter_core_msgs) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/end_effector_command__type_support.cpp.o\n'}
+[13.553721] (-) TimerEvent: {}
+[13.653984] (-) TimerEvent: {}
+[13.754244] (-) TimerEvent: {}
+[13.831534] (baxter_core_msgs) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/bridge_publisher__type_support_c.cpp.o\n'}
+[13.854384] (-) TimerEvent: {}
+[13.855884] (baxter_core_msgs) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/navigator_state__type_support.cpp.o\n'}
+[13.874408] (baxter_core_msgs) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/endpoint_states__type_support_c.cpp.o\n'}
+[13.926679] (baxter_core_msgs) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/list_cameras__type_support_c.cpp.o\n'}
+[13.954491] (-) TimerEvent: {}
+[13.969789] (baxter_core_msgs) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/close_camera__type_support_c.cpp.o\n'}
+[14.054623] (-) TimerEvent: {}
+[14.093442] (baxter_core_msgs) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/bridge_publishers_auth__type_support_c.cpp.o\n'}
+[14.093790] (baxter_core_msgs) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/bridge_publishers_force__type_support_c.cpp.o\n'}
+[14.108722] (baxter_core_msgs) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/open_camera__type_support_c.cpp.o\n'}
+[14.138942] (baxter_core_msgs) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/solve_position_ik__type_support_c.cpp.o\n'}
+[14.154746] (-) TimerEvent: {}
+[14.218640] (baxter_core_msgs) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/analog_output_command__type_support.cpp.o\n'}
+[14.255524] (-) TimerEvent: {}
+[14.307538] (baxter_core_msgs) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/endpoint_state__type_support.cpp.o\n'}
+[14.355759] (-) TimerEvent: {}
+[14.356905] (baxter_core_msgs) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/navigator_state__type_support.cpp.o\n'}
+[14.455888] (-) TimerEvent: {}
+[14.522556] (baxter_core_msgs) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/analog_output_command__type_support.cpp.o\n'}
+[14.556080] (-) TimerEvent: {}
+[14.622819] (baxter_core_msgs) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/endpoint_state__type_support.cpp.o\n'}
+[14.656214] (-) TimerEvent: {}
+[14.741185] (baxter_core_msgs) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/collision_detection_state__type_support.cpp.o\n'}
+[14.756350] (-) TimerEvent: {}
+[14.842082] (baxter_core_msgs) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/sea_joint_state__type_support.cpp.o\n'}
+[14.856478] (-) TimerEvent: {}
+[14.938425] (baxter_core_msgs) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/collision_detection_state__type_support.cpp.o\n'}
+[14.948020] (baxter_core_msgs) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/sea_joint_state__type_support.cpp.o\n'}
+[14.956616] (-) TimerEvent: {}
+[15.013600] (baxter_core_msgs) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/collision_avoidance_state__type_support.cpp.o\n'}
+[15.035462] (baxter_core_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/urdf_configuration__type_support.cpp.o\n'}
+[15.056748] (-) TimerEvent: {}
+[15.067455] (baxter_core_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/camera_control__type_support.cpp.o\n'}
+[15.135923] (baxter_core_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/navigator_states__type_support.cpp.o\n'}
+[15.156888] (-) TimerEvent: {}
+[15.224780] (baxter_core_msgs) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/analog_io_state__type_support.cpp.o\n'}
+[15.257026] (-) TimerEvent: {}
+[15.268083] (baxter_core_msgs) StdoutLine: {'line': b'[ 72%] Linking CXX shared library libbaxter_core_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[15.297722] (baxter_core_msgs) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/collision_avoidance_state__type_support.cpp.o\n'}
+[15.357167] (-) TimerEvent: {}
+[15.455983] (baxter_core_msgs) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/camera_settings__type_support.cpp.o\n'}
+[15.457260] (-) TimerEvent: {}
+[15.509305] (baxter_core_msgs) StdoutLine: {'line': b'[ 72%] Built target baxter_core_msgs__rosidl_typesupport_fastrtps_c\n'}
+[15.528383] (baxter_core_msgs) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/digital_io_state__type_support.cpp.o\n'}
+[15.532604] (baxter_core_msgs) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/joint_command__type_support.cpp.o\n'}
+[15.557410] (-) TimerEvent: {}
+[15.621125] (baxter_core_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/urdf_configuration__type_support.cpp.o\n'}
+[15.657540] (-) TimerEvent: {}
+[15.757796] (-) TimerEvent: {}
+[15.858483] (-) TimerEvent: {}
+[15.898319] (baxter_core_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/camera_control__type_support.cpp.o\n'}
+[15.958609] (-) TimerEvent: {}
+[15.998759] (baxter_core_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/analog_io_state__type_support.cpp.o\n'}
+[16.009163] (baxter_core_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/navigator_states__type_support.cpp.o\n'}
+[16.058741] (-) TimerEvent: {}
+[16.071311] (baxter_core_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/robust_controller_status__type_support.cpp.o\n'}
+[16.158872] (-) TimerEvent: {}
+[16.194676] (baxter_core_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/assembly_states__type_support.cpp.o\n'}
+[16.259564] (-) TimerEvent: {}
+[16.359832] (-) TimerEvent: {}
+[16.362211] (baxter_core_msgs) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/digital_output_command__type_support.cpp.o\n'}
+[16.379334] (baxter_core_msgs) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/head_pan_command__type_support.cpp.o\n'}
+[16.387946] (baxter_core_msgs) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/assembly_state__type_support.cpp.o\n'}
+[16.388261] (baxter_core_msgs) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/camera_settings__type_support.cpp.o\n'}
+[16.449126] (baxter_core_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/head_state__type_support.cpp.o\n'}
+[16.459961] (-) TimerEvent: {}
+[16.560212] (-) TimerEvent: {}
+[16.560974] (baxter_core_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/analog_io_states__type_support.cpp.o\n'}
+[16.660345] (-) TimerEvent: {}
+[16.668630] (baxter_core_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/joint_command__type_support.cpp.o\n'}
+[16.732312] (baxter_core_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/endpoint_states__type_support.cpp.o\n'}
+[16.732821] (baxter_core_msgs) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/bridge_publisher__type_support.cpp.o\n'}
+[16.760496] (-) TimerEvent: {}
+[16.804465] (baxter_core_msgs) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/digital_io_state__type_support.cpp.o\n'}
+[16.860619] (-) TimerEvent: {}
+[16.960874] (-) TimerEvent: {}
+[17.061132] (-) TimerEvent: {}
+[17.095967] (baxter_core_msgs) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/robust_controller_status__type_support.cpp.o\n'}
+[17.144910] (baxter_core_msgs) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/assembly_states__type_support.cpp.o\n'}
+[17.153181] (baxter_core_msgs) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/list_cameras__type_support.cpp.o\n'}
+[17.161265] (-) TimerEvent: {}
+[17.261523] (-) TimerEvent: {}
+[17.361780] (-) TimerEvent: {}
+[17.462045] (-) TimerEvent: {}
+[17.472770] (baxter_core_msgs) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/close_camera__type_support.cpp.o\n'}
+[17.562179] (-) TimerEvent: {}
+[17.595903] (baxter_core_msgs) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/open_camera__type_support.cpp.o\n'}
+[17.615641] (baxter_core_msgs) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/bridge_publishers_force__type_support.cpp.o\n'}
+[17.662312] (-) TimerEvent: {}
+[17.666631] (baxter_core_msgs) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/bridge_publishers_auth__type_support.cpp.o\n'}
+[17.685346] (baxter_core_msgs) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/digital_output_command__type_support.cpp.o\n'}
+[17.720456] (baxter_core_msgs) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/head_pan_command__type_support.cpp.o\n'}
+[17.762458] (-) TimerEvent: {}
+[17.766822] (baxter_core_msgs) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/solve_position_ik__type_support.cpp.o\n'}
+[17.825437] (baxter_core_msgs) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/assembly_state__type_support.cpp.o\n'}
+[17.862584] (-) TimerEvent: {}
+[17.919648] (baxter_core_msgs) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/head_state__type_support.cpp.o\n'}
+[17.962719] (-) TimerEvent: {}
+[17.993705] (baxter_core_msgs) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/analog_io_states__type_support.cpp.o\n'}
+[18.062849] (-) TimerEvent: {}
+[18.163104] (-) TimerEvent: {}
+[18.258498] (baxter_core_msgs) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/bridge_publisher__type_support.cpp.o\n'}
+[18.263226] (-) TimerEvent: {}
+[18.300102] (baxter_core_msgs) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/endpoint_states__type_support.cpp.o\n'}
+[18.310928] (baxter_core_msgs) StdoutLine: {'line': b'[ 84%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/list_cameras__type_support.cpp.o\n'}
+[18.363354] (-) TimerEvent: {}
+[18.463604] (-) TimerEvent: {}
+[18.486445] (baxter_core_msgs) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/close_camera__type_support.cpp.o\n'}
+[18.501547] (baxter_core_msgs) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/open_camera__type_support.cpp.o\n'}
+[18.563744] (-) TimerEvent: {}
+[18.570251] (baxter_core_msgs) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/bridge_publishers_force__type_support.cpp.o\n'}
+[18.663867] (-) TimerEvent: {}
+[18.764126] (-) TimerEvent: {}
+[18.793109] (baxter_core_msgs) StdoutLine: {'line': b'[ 86%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/bridge_publishers_auth__type_support.cpp.o\n'}
+[18.809397] (baxter_core_msgs) StdoutLine: {'line': b'[ 86%] Building CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/solve_position_ik__type_support.cpp.o\n'}
+[18.864253] (-) TimerEvent: {}
+[18.964510] (-) TimerEvent: {}
+[19.064747] (-) TimerEvent: {}
+[19.164941] (-) TimerEvent: {}
+[19.235945] (baxter_core_msgs) StdoutLine: {'line': b'[ 86%] Linking CXX shared library libbaxter_core_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.265089] (-) TimerEvent: {}
+[19.365332] (-) TimerEvent: {}
+[19.411941] (baxter_core_msgs) StdoutLine: {'line': b'[ 86%] Built target baxter_core_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[19.465466] (-) TimerEvent: {}
+[19.565641] (-) TimerEvent: {}
+[19.665841] (-) TimerEvent: {}
+[19.766032] (-) TimerEvent: {}
+[19.866185] (-) TimerEvent: {}
+[19.966365] (-) TimerEvent: {}
+[19.978994] (baxter_core_msgs) StdoutLine: {'line': b'[ 87%] Linking CXX shared library libbaxter_core_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[20.066473] (-) TimerEvent: {}
+[20.074976] (baxter_core_msgs) StdoutLine: {'line': b'[ 87%] Built target baxter_core_msgs__rosidl_typesupport_introspection_cpp\n'}
+[20.089426] (baxter_core_msgs) StdoutLine: {'line': b'[ 87%] Built target baxter_core_msgs\n'}
+[20.105175] (baxter_core_msgs) StdoutLine: {'line': b'[ 87%] Generating Python code for ROS interfaces\n'}
+[20.166551] (-) TimerEvent: {}
+[20.266683] (-) TimerEvent: {}
+[20.366821] (-) TimerEvent: {}
+[20.466964] (-) TimerEvent: {}
+[20.567105] (-) TimerEvent: {}
+[20.667250] (-) TimerEvent: {}
+[20.767429] (-) TimerEvent: {}
+[20.867560] (-) TimerEvent: {}
+[20.967720] (-) TimerEvent: {}
+[21.067877] (-) TimerEvent: {}
+[21.168037] (-) TimerEvent: {}
+[21.268193] (-) TimerEvent: {}
+[21.368357] (-) TimerEvent: {}
+[21.468513] (-) TimerEvent: {}
+[21.568674] (-) TimerEvent: {}
+[21.668844] (-) TimerEvent: {}
+[21.768971] (-) TimerEvent: {}
+[21.869100] (-) TimerEvent: {}
+[21.969264] (-) TimerEvent: {}
+[22.069430] (-) TimerEvent: {}
+[22.169585] (-) TimerEvent: {}
+[22.269750] (-) TimerEvent: {}
+[22.369907] (-) TimerEvent: {}
+[22.470075] (-) TimerEvent: {}
+[22.570208] (-) TimerEvent: {}
+[22.670363] (-) TimerEvent: {}
+[22.770468] (-) TimerEvent: {}
+[22.870593] (-) TimerEvent: {}
+[22.970718] (-) TimerEvent: {}
+[23.070844] (-) TimerEvent: {}
+[23.170970] (-) TimerEvent: {}
+[23.271101] (-) TimerEvent: {}
+[23.371231] (-) TimerEvent: {}
+[23.471393] (-) TimerEvent: {}
+[23.571545] (-) TimerEvent: {}
+[23.671690] (-) TimerEvent: {}
+[23.771827] (-) TimerEvent: {}
+[23.871958] (-) TimerEvent: {}
+[23.972089] (-) TimerEvent: {}
+[24.072220] (-) TimerEvent: {}
+[24.172383] (-) TimerEvent: {}
+[24.272516] (-) TimerEvent: {}
+[24.372650] (-) TimerEvent: {}
+[24.472814] (-) TimerEvent: {}
+[24.572977] (-) TimerEvent: {}
+[24.673140] (-) TimerEvent: {}
+[24.773282] (-) TimerEvent: {}
+[24.873438] (-) TimerEvent: {}
+[24.973592] (-) TimerEvent: {}
+[25.073747] (-) TimerEvent: {}
+[25.173941] (-) TimerEvent: {}
+[25.178781] (baxter_core_msgs) StdoutLine: {'line': b'[ 87%] Built target baxter_core_msgs__py\n'}
+[25.195490] (baxter_core_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_navigator_state_s.c.o\n'}
+[25.196116] (baxter_core_msgs) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_end_effector_state_s.c.o\n'}
+[25.196433] (baxter_core_msgs) StdoutLine: {'line': b'[ 88%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_digital_io_states_s.c.o\n'}
+[25.196939] (baxter_core_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_analog_output_command_s.c.o\n'}
+[25.197066] (baxter_core_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_end_effector_command_s.c.o\n'}
+[25.197278] (baxter_core_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_endpoint_state_s.c.o\n'}
+[25.197417] (baxter_core_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_collision_detection_state_s.c.o\n'}
+[25.197522] (baxter_core_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_end_effector_properties_s.c.o\n'}
+[25.197684] (baxter_core_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_sea_joint_state_s.c.o\n'}
+[25.197869] (baxter_core_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_urdf_configuration_s.c.o\n'}
+[25.198071] (baxter_core_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_collision_avoidance_state_s.c.o\n'}
+[25.198182] (baxter_core_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_camera_control_s.c.o\n'}
+[25.198411] (baxter_core_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_navigator_states_s.c.o\n'}
+[25.198513] (baxter_core_msgs) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_analog_io_state_s.c.o\n'}
+[25.203673] (baxter_core_msgs) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_camera_settings_s.c.o\n'}
+[25.231581] (baxter_core_msgs) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_joint_command_s.c.o\n'}
+[25.274054] (-) TimerEvent: {}
+[25.374261] (-) TimerEvent: {}
+[25.387262] (baxter_core_msgs) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_digital_io_state_s.c.o\n'}
+[25.396084] (baxter_core_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_robust_controller_status_s.c.o\n'}
+[25.401749] (baxter_core_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_assembly_states_s.c.o\n'}
+[25.409483] (baxter_core_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_head_pan_command_s.c.o\n'}
+[25.409734] (baxter_core_msgs) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_digital_output_command_s.c.o\n'}
+[25.413590] (baxter_core_msgs) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_assembly_state_s.c.o\n'}
+[25.427096] (baxter_core_msgs) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_bridge_publisher_s.c.o\n'}
+[25.427381] (baxter_core_msgs) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_analog_io_states_s.c.o\n'}
+[25.433325] (baxter_core_msgs) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_endpoint_states_s.c.o\n'}
+[25.437933] (baxter_core_msgs) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_head_state_s.c.o\n'}
+[25.438378] (baxter_core_msgs) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_list_cameras_s.c.o\n'}
+[25.438751] (baxter_core_msgs) StdoutLine: {'line': b'[ 97%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_close_camera_s.c.o\n'}
+[25.474379] (-) TimerEvent: {}
+[25.481286] (baxter_core_msgs) StdoutLine: {'line': b'[ 98%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_open_camera_s.c.o\n'}
+[25.482338] (baxter_core_msgs) StdoutLine: {'line': b'[ 98%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_bridge_publishers_force_s.c.o\n'}
+[25.532592] (baxter_core_msgs) StdoutLine: {'line': b'[ 99%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_bridge_publishers_auth_s.c.o\n'}
+[25.574924] (-) TimerEvent: {}
+[25.579138] (baxter_core_msgs) StdoutLine: {'line': b'[ 99%] Building C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_solve_position_ik_s.c.o\n'}
+[25.675025] (-) TimerEvent: {}
+[25.775236] (-) TimerEvent: {}
+[25.799749] (baxter_core_msgs) StdoutLine: {'line': b'[ 99%] Linking C shared library rosidl_generator_py/baxter_core_msgs/libbaxter_core_msgs__rosidl_generator_py.so\n'}
+[25.867040] (baxter_core_msgs) StdoutLine: {'line': b'[ 99%] Built target baxter_core_msgs__rosidl_generator_py\n'}
+[25.875341] (-) TimerEvent: {}
+[25.887105] (baxter_core_msgs) StdoutLine: {'line': b'[ 99%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[25.887680] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[25.892359] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Building C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[25.975480] (-) TimerEvent: {}
+[26.075649] (-) TimerEvent: {}
+[26.142789] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.143016] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.149005] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.175777] (-) TimerEvent: {}
+[26.188948] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Built target baxter_core_msgs__rosidl_typesupport_c__pyext\n'}
+[26.189826] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Built target baxter_core_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.196387] (baxter_core_msgs) StdoutLine: {'line': b'[100%] Built target baxter_core_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[26.206492] (baxter_core_msgs) JobEnded: {'identifier': 'baxter_core_msgs', 'rc': 'SIGINT'}
+[26.216893] (baxter_bridge) JobSkipped: {'identifier': 'baxter_bridge'}
+[26.216941] (-) EventReactorShutdown: {}

@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000522] (baxter_core_msgs) JobQueued: {'identifier': 'baxter_core_msgs', 'dependencies': OrderedDict()}
+[0.000638] (baxter_maintenance_msgs) JobQueued: {'identifier': 'baxter_maintenance_msgs', 'dependencies': OrderedDict()}
+[0.000659] (my_ros2_test_package) JobQueued: {'identifier': 'my_ros2_test_package', 'dependencies': OrderedDict()}
+[0.000675] (rethink_ee_description) JobQueued: {'identifier': 'rethink_ee_description', 'dependencies': OrderedDict()}
+[0.000690] (baxter_bridge) JobQueued: {'identifier': 'baxter_bridge', 'dependencies': OrderedDict([('baxter_core_msgs', '/shared_ws/install/baxter_core_msgs'), ('baxter_maintenance_msgs', '/shared_ws/install/baxter_maintenance_msgs')])}
+[0.000827] (baxter_description) JobQueued: {'identifier': 'baxter_description', 'dependencies': OrderedDict([('rethink_ee_description', '/shared_ws/install/rethink_ee_description')])}
+[0.000876] (baxter_core_msgs) JobStarted: {'identifier': 'baxter_core_msgs'}
+[0.005805] (baxter_maintenance_msgs) JobStarted: {'identifier': 'baxter_maintenance_msgs'}
+[0.008264] (rethink_ee_description) JobStarted: {'identifier': 'rethink_ee_description'}
+[0.011029] (my_ros2_test_package) JobStarted: {'identifier': 'my_ros2_test_package'}
+[0.015686] (baxter_core_msgs) JobProgress: {'identifier': 'baxter_core_msgs', 'progress': 'cmake'}
+[0.016096] (baxter_core_msgs) Command: {'cmd': ['/usr/bin/cmake', '/shared_ws/src/baxter_core_msgs', '-DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_core_msgs'], 'cwd': '/shared_ws/build/baxter_core_msgs', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_core_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018204] (baxter_maintenance_msgs) JobProgress: {'identifier': 'baxter_maintenance_msgs', 'progress': 'cmake'}
+[0.018272] (baxter_maintenance_msgs) Command: {'cmd': ['/usr/bin/cmake', '/shared_ws/src/baxter_maintenance_msgs', '-DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_maintenance_msgs'], 'cwd': '/shared_ws/build/baxter_maintenance_msgs', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_maintenance_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018775] (rethink_ee_description) JobProgress: {'identifier': 'rethink_ee_description', 'progress': 'cmake'}
+[0.018843] (rethink_ee_description) Command: {'cmd': ['/usr/bin/cmake', '/shared_ws/src/rethink_ee_description', '-DCMAKE_INSTALL_PREFIX=/shared_ws/install/rethink_ee_description'], 'cwd': '/shared_ws/build/rethink_ee_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/rethink_ee_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100047] (-) TimerEvent: {}
+[0.200197] (-) TimerEvent: {}
+[0.224948] (baxter_core_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.225282] (baxter_core_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.225539] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.225614] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.225729] (baxter_core_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.225799] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.225865] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.226116] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.226224] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.226563] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.226633] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.226765] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.226870] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.226937] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.227083] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.227279] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.227472] (rethink_ee_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.227595] (rethink_ee_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.227682] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.227763] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.227842] (rethink_ee_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.227925] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.228004] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.228083] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.253256] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.254281] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.261690] (baxter_core_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.262009] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.262582] (baxter_core_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.262855] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.263145] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.263635] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.265575] (baxter_core_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.266369] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.283214] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.291570] (rethink_ee_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.291835] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.292314] (rethink_ee_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.295111] (rethink_ee_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300305] (-) TimerEvent: {}
+[0.396448] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400379] (-) TimerEvent: {}
+[0.409279] (baxter_core_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.433504] (rethink_ee_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.496513] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500374] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500566] (-) TimerEvent: {}
+[0.509366] (baxter_core_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.509975] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.531480] (rethink_ee_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.549126] (baxter_core_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.555079] (baxter_core_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.559899] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.565766] (baxter_core_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.582031] (baxter_core_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600678] (-) TimerEvent: {}
+[0.602278] (baxter_core_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.622285] (baxter_core_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.654172] (rethink_ee_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.657095] (rethink_ee_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.658936] (rethink_ee_description) StdoutLine: {'line': b'-- Build files have been written to: /shared_ws/build/rethink_ee_description\n'}
+[0.663780] (my_ros2_test_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ros2_test_package', 'build', '--build-base', '/shared_ws/build/my_ros2_test_package/build', 'install', '--record', '/shared_ws/build/my_ros2_test_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/shared_ws/src/my_ros2_test_package', 'env': {'HOSTNAME': 'b009c0badc2d', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros/ws_moveit2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/shared_ws/build/my_ros2_test_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.665742] (baxter_core_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.665972] (rethink_ee_description) CommandEnded: {'returncode': 0}
+[0.667016] (rethink_ee_description) JobProgress: {'identifier': 'rethink_ee_description', 'progress': 'build'}
+[0.667068] (rethink_ee_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/shared_ws/build/rethink_ee_description', '--', '-j16', '-l16'], 'cwd': '/shared_ws/build/rethink_ee_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/rethink_ee_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.690316] (baxter_core_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.700779] (-) TimerEvent: {}
+[0.703107] (rethink_ee_description) CommandEnded: {'returncode': 0}
+[0.703868] (rethink_ee_description) JobProgress: {'identifier': 'rethink_ee_description', 'progress': 'install'}
+[0.725706] (rethink_ee_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/shared_ws/build/rethink_ee_description'], 'cwd': '/shared_ws/build/rethink_ee_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/shared_ws/build/rethink_ee_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.732282] (rethink_ee_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.732566] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes\n'}
+[0.732648] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper\n'}
+[0.732722] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.STL\n'}
+[0.734547] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.STL\n'}
+[0.735318] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers\n'}
+[0.735397] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.DAE\n'}
+[0.735562] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.STL\n'}
+[0.735865] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.STL\n'}
+[0.736124] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.STL\n'}
+[0.736292] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.STL\n'}
+[0.736545] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.DAE\n'}
+[0.737358] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.DAE\n'}
+[0.737536] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.DAE\n'}
+[0.737835] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.DAE\n'}
+[0.738158] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.DAE\n'}
+[0.738510] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.STL\n'}
+[0.738742] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.STL\n'}
+[0.738978] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.STL\n'}
+[0.740037] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.STL\n'}
+[0.740625] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.DAE\n'}
+[0.741136] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.STL\n'}
+[0.741289] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.DAE\n'}
+[0.741632] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.DAE\n'}
+[0.743407] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.DAE\n'}
+[0.744564] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.DAE\n'}
+[0.751425] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper\n'}
+[0.751561] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive\n'}
+[0.751642] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper.STL\n'}
+[0.752010] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper_30mm_cup.STL\n'}
+[0.752736] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.DAE\n'}
+[0.755058] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.STL\n'}
+[0.756499] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.STL\n'}
+[0.757426] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.DAE\n'}
+[0.759078] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf\n'}
+[0.759552] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper\n'}
+[0.759866] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/null_gripper.xacro\n'}
+[0.759947] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/example_end_effector.urdf.xacro\n'}
+[0.760023] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper\n'}
+[0.760265] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/rethink_electric_gripper.xacro\n'}
+[0.760420] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers\n'}
+[0.760496] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_wide.xacro\n'}
+[0.760569] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_narrow.xacro\n'}
+[0.760642] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_narrow.xacro\n'}
+[0.760714] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_hard_tip.xacro\n'}
+[0.760895] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_soft_tip.xacro\n'}
+[0.760968] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/half_round_tip.xacro\n'}
+[0.761137] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/none.xacro\n'}
+[0.761209] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/paddle_tip.xacro\n'}
+[0.761343] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_wide.xacro\n'}
+[0.761467] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/example_end_effector.urdf.xacro\n'}
+[0.761538] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper\n'}
+[0.761665] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/pneumatic_gripper_base.xacro\n'}
+[0.761791] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/example_end_effector.urdf.xacro\n'}
+[0.761914] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/rethink_pneumatic_gripper.xacro\n'}
+[0.762052] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/package_run_dependencies/rethink_ee_description\n'}
+[0.762178] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/parent_prefix_path/rethink_ee_description\n'}
+[0.762307] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.sh\n'}
+[0.762379] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.dsv\n'}
+[0.762556] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.sh\n'}
+[0.762623] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.dsv\n'}
+[0.762744] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.bash\n'}
+[0.762815] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.sh\n'}
+[0.762987] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.zsh\n'}
+[0.763059] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.dsv\n'}
+[0.763195] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv\n'}
+[0.763262] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/ament_index/resource_index/packages/rethink_ee_description\n'}
+[0.763329] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig.cmake\n'}
+[0.763396] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig-version.cmake\n'}
+[0.763469] (rethink_ee_description) StdoutLine: {'line': b'-- Installing: /shared_ws/install/rethink_ee_description/share/rethink_ee_description/package.xml\n'}
+[0.764442] (rethink_ee_description) CommandEnded: {'returncode': 0}
+[0.786157] (rethink_ee_description) JobEnded: {'identifier': 'rethink_ee_description', 'rc': 0}
+[0.787305] (baxter_description) JobStarted: {'identifier': 'baxter_description'}
+[0.792242] (baxter_description) JobProgress: {'identifier': 'baxter_description', 'progress': 'cmake'}
+[0.792723] (baxter_description) Command: {'cmd': ['/usr/bin/cmake', '/shared_ws/src/baxter_description', '-DCMAKE_INSTALL_PREFIX=/shared_ws/install/baxter_description'], 'cwd': '/shared_ws/build/baxter_description', 'env': OrderedDict([('HOSTNAME', 'b009c0badc2d'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/ros/ws_moveit2'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/shared_ws/install/rethink_ee_description:/opt/ros/humble'), ('PWD', '/shared_ws/build/baxter_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/shared_ws/install/rethink_ee_description:/opt/ros/humble')]), 'shell': False}
+[0.800874] (-) TimerEvent: {}
+[0.847300] (baxter_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.900980] (-) TimerEvent: {}
+[0.910787] (my_ros2_test_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.911527] (my_ros2_test_package) StdoutLine: {'line': b'creating ../../build/my_ros2_test_package/my_ros2_test_package.egg-info\n'}
+[0.911855] (my_ros2_test_package) StdoutLine: {'line': b'writing ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/PKG-INFO\n'}
+[0.911957] (my_ros2_test_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/dependency_links.txt\n'}
+[0.912187] (my_ros2_test_package) StdoutLine: {'line': b'writing entry points to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/entry_points.txt\n'}
+[0.912265] (my_ros2_test_package) StdoutLine: {'line': b'writing requirements to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/requires.txt\n'}
+[0.912537] (my_ros2_test_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/top_level.txt\n'}
+[0.912619] (my_ros2_test_package) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.913516] (my_ros2_test_package) StderrLine: {'line': b"package init file 'my_ros2_test_package/__init__.py' not found (or not a regular file)\n"}
+[0.913937] (my_ros2_test_package) StdoutLine: {'line': b"reading manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.915068] (my_ros2_test_package) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.915187] (my_ros2_test_package) StdoutLine: {'line': b'running build\n'}
+[0.915270] (my_ros2_test_package) StdoutLine: {'line': b'running build_py\n'}
+[0.915555] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/build/my_ros2_test_package/build\n'}
+[0.915726] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/build/my_ros2_test_package/build/lib\n'}
+[0.915806] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package\n'}
+[0.915879] (my_ros2_test_package) StdoutLine: {'line': b'copying my_ros2_test_package/wave_baxter.py -> /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package\n'}
+[0.915960] (my_ros2_test_package) StdoutLine: {'line': b'copying my_ros2_test_package/simple_publisher.py -> /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package\n'}
+[0.916035] (my_ros2_test_package) StdoutLine: {'line': b'running install\n'}
+[0.916171] (my_ros2_test_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.916773] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package\n'}
+[0.916913] (my_ros2_test_package) StdoutLine: {'line': b'copying /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package/wave_baxter.py -> /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package\n'}
+[0.917042] (my_ros2_test_package) StdoutLine: {'line': b'copying /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package/simple_publisher.py -> /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package\n'}
+[0.917544] (my_ros2_test_package) StdoutLine: {'line': b'byte-compiling /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package/wave_baxter.py to wave_baxter.cpython-310.pyc\n'}
+[0.918242] (my_ros2_test_package) StdoutLine: {'line': b'byte-compiling /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package/simple_publisher.py to simple_publisher.cpython-310.pyc\n'}
+[0.918652] (my_ros2_test_package) StdoutLine: {'line': b'running install_data\n'}
+[0.918910] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/install/my_ros2_test_package/share/ament_index\n'}
+[0.918984] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/install/my_ros2_test_package/share/ament_index/resource_index\n'}
+[0.919053] (my_ros2_test_package) StdoutLine: {'line': b'creating /shared_ws/install/my_ros2_test_package/share/ament_index/resource_index/packages\n'}
+[0.919122] (my_ros2_test_package) StderrLine: {'line': b"error: can't copy 'resource/my_ros2_test_package': doesn't exist or not a regular file\n"}
+[0.928350] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.936005] (baxter_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.940770] (my_ros2_test_package) CommandEnded: {'returncode': 1}
+[0.941207] (my_ros2_test_package) JobEnded: {'identifier': 'my_ros2_test_package', 'rc': 1}
+[0.944674] (baxter_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001100] (-) TimerEvent: {}
+[1.008725] (baxter_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.017773] (baxter_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.018033] (baxter_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.018563] (baxter_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.022088] (baxter_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101205] (-) TimerEvent: {}
+[1.102251] (baxter_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.110380] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.111750] (baxter_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.112056] (baxter_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.112653] (baxter_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.117134] (baxter_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.201303] (-) TimerEvent: {}
+[1.259009] (baxter_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.277775] (baxter_core_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.301406] (-) TimerEvent: {}
+[1.336440] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.354988] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.357198] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.362453] (baxter_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.377781] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.377933] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.378021] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.378095] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.394540] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.401500] (-) TimerEvent: {}
+[1.428716] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.442819] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.481113] (baxter_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.483855] (baxter_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.485644] (baxter_description) StdoutLine: {'line': b'-- Build files have been written to: /shared_ws/build/baxter_description\n'}
+[1.489918] (baxter_description) JobEnded: {'identifier': 'baxter_description', 'rc': 'SIGINT'}
+[1.492979] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.501604] (-) TimerEvent: {}
+[1.505190] (baxter_maintenance_msgs) StdoutLine: {'line': b'-- Build files have been written to: /shared_ws/build/baxter_maintenance_msgs\n'}
+[1.510143] (baxter_maintenance_msgs) JobEnded: {'identifier': 'baxter_maintenance_msgs', 'rc': 'SIGINT'}
+[1.601724] (-) TimerEvent: {}
+[1.701900] (-) TimerEvent: {}
+[1.793727] (baxter_core_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802015] (-) TimerEvent: {}
+[1.902143] (-) TimerEvent: {}
+[1.958187] (baxter_core_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.972076] (baxter_core_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.973557] (baxter_core_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.988786] (baxter_core_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.988900] (baxter_core_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.988960] (baxter_core_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.989014] (baxter_core_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.001334] (baxter_core_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.002207] (-) TimerEvent: {}
+[2.064063] (baxter_core_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.069910] (baxter_core_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.102337] (-) TimerEvent: {}
+[2.145720] (baxter_core_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.160244] (baxter_core_msgs) StdoutLine: {'line': b'-- Build files have been written to: /shared_ws/build/baxter_core_msgs\n'}
+[2.166731] (baxter_core_msgs) JobEnded: {'identifier': 'baxter_core_msgs', 'rc': 'SIGINT'}
+[2.177037] (baxter_bridge) JobSkipped: {'identifier': 'baxter_bridge'}
+[2.177071] (-) EventReactorShutdown: {}

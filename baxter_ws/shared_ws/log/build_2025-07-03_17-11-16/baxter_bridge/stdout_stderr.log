@@ -1,0 +1,78 @@
+[  2%] Built target baxter_bridge__cpp
+[ 10%] Built target baxter_bridge__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_baxter_bridge
+[ 36%] Built target baxter_bridge__rosidl_typesupport_cpp
+[ 36%] Built target baxter_bridge__rosidl_typesupport_introspection_c
+[ 36%] Built target baxter_bridge__rosidl_typesupport_c
+[ 44%] Built target baxter_bridge__rosidl_typesupport_introspection_cpp
+[ 61%] Built target baxter_bridge__rosidl_typesupport_fastrtps_c
+[ 61%] Built target baxter_bridge__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target baxter_bridge
+[ 63%] Building CXX object CMakeFiles/bridge.dir/src/baxter_bridge.cpp.o
+[ 65%] Building CXX object CMakeFiles/bridge.dir/src/monitor.cpp.o
+[ 68%] Building CXX object CMakeFiles/bridge.dir/src/factory_1to2.cpp.o
+[ 70%] Building CXX object CMakeFiles/bridge.dir/src/factory_2to1.cpp.o
+[ 72%] Building CXX object CMakeFiles/bridge.dir/src/factory.cpp.o
+[ 74%] Building CXX object CMakeFiles/bridge.dir/src/bridge.cpp.o
+[ 76%] Building CXX object CMakeFiles/bridge.dir/src/topic_poller.cpp.o
+In file included from /shared_ws/src/baxter_bridge/src/monitor.cpp:1:
+/shared_ws/src/baxter_bridge/include/baxter_bridge/monitor.h:4:10: fatal error: ros/ros.h: No such file or directory
+    4 | #include <ros/ros.h>
+      |          ^~~~~~~~~~~
+In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/solve_ik.h:7,
+                 from /shared_ws/src/baxter_bridge/src/baxter_bridge.cpp:1:
+/shared_ws/src/baxter_bridge/ros1_msgs/baxter_core_msgs/SolvePositionIK.h:8:10: fatal error: ros/service_traits.h: No such file or directory
+    8 | #include <ros/service_traits.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/bridge_2to1.h:4,
+                 from /shared_ws/src/baxter_bridge/src/factory_2to1.cpp:2:
+/shared_ws/src/baxter_bridge/include/baxter_bridge/bridge.h:4:10: fatal error: ros/node_handle.h: No such file or directory
+    4 | #include <ros/node_handle.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+compilation terminated.
+In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/bridge_1to2.h:4,
+                 from /shared_ws/src/baxter_bridge/src/factory_1to2.cpp:2:
+/shared_ws/src/baxter_bridge/include/baxter_bridge/bridge.h:4:10: fatal error: ros/node_handle.h: No such file or directory
+    4 | #include <ros/node_handle.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bridge.dir/build.make:104: CMakeFiles/bridge.dir/src/monitor.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/bridge.dir/build.make:146: CMakeFiles/bridge.dir/src/factory_2to1.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/bridge.dir/build.make:76: CMakeFiles/bridge.dir/src/baxter_bridge.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/bridge.dir/build.make:132: CMakeFiles/bridge.dir/src/factory_1to2.cpp.o] Error 1
+/shared_ws/src/baxter_bridge/src/bridge.cpp:1:10: fatal error: ros/node_handle.h: No such file or directory
+    1 | #include <ros/node_handle.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bridge.dir/build.make:90: CMakeFiles/bridge.dir/src/bridge.cpp.o] Error 1
+[ 78%] Built target baxter_bridge__py
+[ 82%] Building C object CMakeFiles/baxter_bridge__rosidl_generator_py.dir/rosidl_generator_py/baxter_bridge/srv/_open_s.c.o
+[ 82%] Building C object CMakeFiles/baxter_bridge__rosidl_generator_py.dir/rosidl_generator_py/baxter_bridge/srv/_exists_s.c.o
+In file included from /shared_ws/src/baxter_bridge/src/topic_poller.cpp:1:
+/shared_ws/src/baxter_bridge/include/baxter_bridge/topic_poller.h:6:10: fatal error: ros/ros.h: No such file or directory
+    6 | #include <ros/ros.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bridge.dir/build.make:160: CMakeFiles/bridge.dir/src/topic_poller.cpp.o] Error 1
+In file included from /shared_ws/src/baxter_bridge/include/baxter_bridge/factory.h:8,
+                 from /shared_ws/src/baxter_bridge/src/factory.cpp:1:
+/shared_ws/src/baxter_bridge/include/baxter_bridge/bridge.h:4:10: fatal error: ros/node_handle.h: No such file or directory
+    4 | #include <ros/node_handle.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bridge.dir/build.make:118: CMakeFiles/bridge.dir/src/factory.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/bridge.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing baxter_bridge.egg-info/PKG-INFO
+writing dependency_links to baxter_bridge.egg-info/dependency_links.txt
+writing top-level names to baxter_bridge.egg-info/top_level.txt
+reading manifest file 'baxter_bridge.egg-info/SOURCES.txt'
+writing manifest file 'baxter_bridge.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_baxter_bridge_egg
+[ 85%] Linking C shared library rosidl_generator_py/baxter_bridge/libbaxter_bridge__rosidl_generator_py.so
+[ 85%] Built target baxter_bridge__rosidl_generator_py
+gmake: *** [Makefile:146: all] Error 2

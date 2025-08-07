@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/SEAJointState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module baxter_core_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This is a message that holds data to describe the state of a set of torque controlled joints." "\n"
+      "" "\n"
+      "The state of each joint (revolute or prismatic) is defined by:" "\n"
+      " * the position of the joint (rad or m)," "\n"
+      " * the velocity of the joint (rad/s or m/s) and" "\n"
+      " * the effort that is applied in the joint (Nm or N)." "\n"
+      "" "\n"
+      "Each joint is uniquely identified by its name" "\n"
+      "The header specifies the time at which the joint states were recorded. All the joint states" "\n"
+      "in one message have to be recorded at the same time." "\n"
+      "" "\n"
+      "This message consists of a multiple arrays, one for each part of the joint state." "\n"
+      "The goal is to make each of the fields optional. When e.g. your joints have no" "\n"
+      "effort associated with them, you can leave the effort array empty." "\n"
+      "" "\n"
+      "All arrays in this message should have the same size, or be empty." "\n"
+      "This is the only way to uniquely associate the joint name with the correct" "\n"
+      "states.")
+    struct SEAJointState {
+      std_msgs::msg::Header header;
+
+      sequence<string> name;
+
+      sequence<double> commanded_position;
+
+      sequence<double> commanded_velocity;
+
+      sequence<double> commanded_acceleration;
+
+      sequence<double> commanded_effort;
+
+      sequence<double> actual_position;
+
+      sequence<double> actual_velocity;
+
+      sequence<double> actual_effort;
+
+      @verbatim (language="comment", text=
+        "This includes the inertial feed forward torques when applicable.")
+      sequence<double> gravity_model_effort;
+
+      @verbatim (language="comment", text=
+        "This is the torque required to hold the arm against gravity returned by KDL" "\n"
+        "if the arm was stationary.  This does not include inertial feed forward" "\n"
+        "torques (even when we have them) or any of the corrections (i.e. spring" "\n"
+        "hysteresis, crosstalk, etc) we make to the KDL model.")
+      sequence<double> gravity_only;
+
+      sequence<double> hysteresis_model_effort;
+
+      sequence<double> crosstalk_model_effort;
+
+      double hyst_state;
+    };
+  };
+};

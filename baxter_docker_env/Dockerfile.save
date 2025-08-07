@@ -1,0 +1,44 @@
+# Start from the official ROS Indigo base image
+FROM ros:indigo
+
+# Install all necessary system dependencies in one go
+# This includes git, build tools, and the ros tools we need
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    git \
+    python-wstool \
+    python-rosdep \
+    ros-indigo-moveit-full \
+    && rm -rf /var/lib/apt/lists/*
+
+# Initialize rosdep, 
+
+# Create the catkin workspace
+RUN mkdir -p /root/baxter_ws/src
+WORKDIR /root/baxter_ws
+
+# --- Download all source code using wstool ---
+# This is the standard way to set up a complex ROS workspace.
+RUN wstool init src
+# Add the main Baxter repository (SDK, examples, tools, etc.)
+RUN wstool set -t src baxter --git https://github.com/RethinkRobotics/baxter.git --version=v1.2.0
+# Add the Baxter MoveIt! configuration repository
+RUN wstool set -t src baxter_moveit_config --git https://github.com/arne48/baxter_moveit_config.git --version=indigo-devel
+# Download all repositories listed in the .rosinstall file
+RUN wstool update -t src
+
+# --- Install Dependencies and Build ---
+# Install all ROS dependencies for the packages we just downloaded
+RUN /bin/bash -c "source /opt/ros/indigo/setup.bash; rosdep install --from-paths src --ignore-src -y"
+
+# Build the workspace. This will compile all the code.
+RUN /bin/bash -c "source /opt/ros/indigo/setup.bash; catkin_make"
+
+# --- Set up the Entrypoint ---
+# This script will be run every time the container starts,
+# ensuring our environment is always ready.
+COPY ./ros_entrypoint.sh /
+RUN chmod +x /ros_entrypoint.sh
+ENTRYPOINT ["/ros_entrypoint.sh"]
+CMD ["bash"]

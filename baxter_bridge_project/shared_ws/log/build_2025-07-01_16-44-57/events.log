@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000571] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000587] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000600] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000613] (my_ros2_test_package) JobQueued: {'identifier': 'my_ros2_test_package', 'dependencies': OrderedDict()}
+[0.000627] (my_ros2_test_package) JobStarted: {'identifier': 'my_ros2_test_package'}
+[0.100058] (-) TimerEvent: {}
+[0.200179] (-) TimerEvent: {}
+[0.300326] (-) TimerEvent: {}
+[0.400480] (-) TimerEvent: {}
+[0.406974] (my_ros2_test_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ros2_test_package', 'build', '--build-base', '/shared_ws/build/my_ros2_test_package/build', 'install', '--record', '/shared_ws/build/my_ros2_test_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/shared_ws/src/my_ros2_test_package', 'env': {'HOSTNAME': 'b009c0badc2d', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/ros/ws_moveit2', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/shared_ws/build/my_ros2_test_package', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.500581] (-) TimerEvent: {}
+[0.556502] (my_ros2_test_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.557028] (my_ros2_test_package) StdoutLine: {'line': b'writing ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/PKG-INFO\n'}
+[0.557243] (my_ros2_test_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/dependency_links.txt\n'}
+[0.557442] (my_ros2_test_package) StdoutLine: {'line': b'writing entry points to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/entry_points.txt\n'}
+[0.557503] (my_ros2_test_package) StdoutLine: {'line': b'writing requirements to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/requires.txt\n'}
+[0.557554] (my_ros2_test_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/top_level.txt\n'}
+[0.558575] (my_ros2_test_package) StdoutLine: {'line': b"reading manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.559266] (my_ros2_test_package) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'\n"}
+[0.559337] (my_ros2_test_package) StdoutLine: {'line': b'running build\n'}
+[0.559387] (my_ros2_test_package) StdoutLine: {'line': b'running build_py\n'}
+[0.559526] (my_ros2_test_package) StdoutLine: {'line': b'copying my_ros2_test_package/__init__.py -> /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package\n'}
+[0.559574] (my_ros2_test_package) StdoutLine: {'line': b'running install\n'}
+[0.559757] (my_ros2_test_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.560229] (my_ros2_test_package) StdoutLine: {'line': b'copying /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package/__init__.py -> /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package\n'}
+[0.560600] (my_ros2_test_package) StdoutLine: {'line': b'byte-compiling /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package/__init__.py to __init__.cpython-310.pyc\n'}
+[0.560935] (my_ros2_test_package) StdoutLine: {'line': b'running install_data\n'}
+[0.561033] (my_ros2_test_package) StdoutLine: {'line': b'copying resource/my_ros2_test_package -> /shared_ws/install/my_ros2_test_package/share/ament_index/resource_index/packages\n'}
+[0.561180] (my_ros2_test_package) StderrLine: {'line': b"error: can't copy 'cmake/my_ros2_test_packageConfig.cmake': doesn't exist or not a regular file\n"}
+[0.573559] (my_ros2_test_package) CommandEnded: {'returncode': 1}
+[0.573800] (my_ros2_test_package) JobEnded: {'identifier': 'my_ros2_test_package', 'rc': 1}
+[0.583849] (-) EventReactorShutdown: {}

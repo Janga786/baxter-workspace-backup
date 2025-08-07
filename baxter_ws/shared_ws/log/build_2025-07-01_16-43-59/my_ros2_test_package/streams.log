@@ -1,0 +1,20 @@
+[0.428s] Invoking command in '/shared_ws/src/my_ros2_test_package': PYTHONPATH=/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_test_package build --build-base /shared_ws/build/my_ros2_test_package/build install --record /shared_ws/build/my_ros2_test_package/install.log --single-version-externally-managed install_data
+[0.575s] running egg_info
+[0.576s] writing ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/PKG-INFO
+[0.576s] writing dependency_links to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/dependency_links.txt
+[0.576s] writing entry points to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/entry_points.txt
+[0.576s] writing requirements to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/requires.txt
+[0.576s] writing top-level names to ../../build/my_ros2_test_package/my_ros2_test_package.egg-info/top_level.txt
+[0.577s] package init file 'my_ros2_test_package/__init__.py' not found (or not a regular file)
+[0.577s] reading manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'
+[0.578s] writing manifest file '../../build/my_ros2_test_package/my_ros2_test_package.egg-info/SOURCES.txt'
+[0.578s] running build
+[0.578s] running build_py
+[0.578s] copying my_ros2_test_package/wave_baxter.py -> /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package
+[0.578s] running install
+[0.578s] running install_lib
+[0.579s] copying /shared_ws/build/my_ros2_test_package/build/lib/my_ros2_test_package/wave_baxter.py -> /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package
+[0.579s] byte-compiling /shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages/my_ros2_test_package/wave_baxter.py to wave_baxter.cpython-310.pyc
+[0.580s] running install_data
+[0.580s] error: can't copy 'resource/my_ros2_test_package': doesn't exist or not a regular file
+[0.593s] Invoked command in '/shared_ws/src/my_ros2_test_package' returned '1': PYTHONPATH=/shared_ws/build/my_ros2_test_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/shared_ws/install/my_ros2_test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_test_package build --build-base /shared_ws/build/my_ros2_test_package/build install --record /shared_ws/build/my_ros2_test_package/install.log --single-version-externally-managed install_data

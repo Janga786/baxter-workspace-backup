@@ -1,0 +1,104 @@
+[0.012s] Invoking command in '/shared_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /shared_ws/build/baxter_maintenance_msgs -- -j16 -l16
+[0.216s] [  1%] Generating C code for ROS interfaces
+[0.216s] [  2%] Generating C++ code for ROS interfaces
+[0.216s] [  2%] Built target ament_cmake_python_copy_baxter_maintenance_msgs
+[0.263s] running egg_info
+[0.263s] creating baxter_maintenance_msgs.egg-info
+[0.263s] writing baxter_maintenance_msgs.egg-info/PKG-INFO
+[0.263s] writing dependency_links to baxter_maintenance_msgs.egg-info/dependency_links.txt
+[0.263s] writing top-level names to baxter_maintenance_msgs.egg-info/top_level.txt
+[0.264s] writing manifest file 'baxter_maintenance_msgs.egg-info/SOURCES.txt'
+[0.264s] reading manifest file 'baxter_maintenance_msgs.egg-info/SOURCES.txt'
+[0.264s] writing manifest file 'baxter_maintenance_msgs.egg-info/SOURCES.txt'
+[0.264s] [  2%] Built target ament_cmake_python_build_baxter_maintenance_msgs_egg
+[0.608s] [  2%] Built target baxter_maintenance_msgs__cpp
+[0.616s] [  5%] Generating C++ type support dispatch for ROS interfaces
+[0.616s] [  5%] Generating C++ introspection for ROS interfaces
+[0.616s] [  6%] Generating C++ type support for eProsima Fast-RTPS
+[0.791s] [  7%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/update_status__functions.c.o
+[0.791s] [  8%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__functions.c.o
+[0.793s] [ 10%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/update_sources__functions.c.o
+[0.794s] [ 11%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/tare_data__functions.c.o
+[0.794s] [ 12%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__functions.c.o
+[0.795s] [ 13%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/tare_enable__functions.c.o
+[0.795s] [ 15%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_maintenance_msgs/msg/detail/update_source__functions.c.o
+[0.853s] [ 16%] Linking C shared library libbaxter_maintenance_msgs__rosidl_generator_c.so
+[0.887s] [ 16%] Built target baxter_maintenance_msgs__rosidl_generator_c
+[0.895s] [ 18%] Generating C introspection for ROS interfaces
+[0.895s] [ 18%] Generating C type support dispatch for ROS interfaces
+[0.898s] [ 20%] Generating C type support for eProsima Fast-RTPS
+[1.009s] [ 21%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_status__type_support.cpp.o
+[1.009s] [ 24%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_data__type_support.cpp.o
+[1.009s] [ 24%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_sources__type_support.cpp.o
+[1.009s] [ 25%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_enable__type_support.cpp.o
+[1.010s] [ 26%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_enable__type_support.cpp.o
+[1.010s] [ 27%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_source__type_support.cpp.o
+[1.011s] [ 29%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_data__type_support.cpp.o
+[1.133s] [ 30%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__type_support.cpp.o
+[1.138s] [ 31%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/tare_data__type_support.cpp.o
+[1.147s] [ 32%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/update_status__type_support.cpp.o
+[1.148s] [ 34%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/update_sources__type_support.cpp.o
+[1.164s] [ 35%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__type_support.cpp.o
+[1.575s] [ 36%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/tare_enable__type_support.cpp.o
+[1.589s] [ 37%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_maintenance_msgs/msg/detail/update_source__type_support.cpp.o
+[1.630s] [ 39%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/update_status__type_support.cpp.o
+[1.642s] [ 40%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/update_sources__type_support.cpp.o
+[1.680s] [ 41%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/tare_data__type_support.cpp.o
+[1.700s] [ 43%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/calibrate_arm_enable__type_support.cpp.o
+[1.720s] [ 44%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/calibrate_arm_data__type_support.cpp.o
+[1.785s] [ 45%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/update_status__type_support.cpp.o
+[1.834s] [ 46%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_cpp.so
+[1.916s] [ 48%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/update_sources__type_support.cpp.o
+[1.963s] [ 48%] Built target baxter_maintenance_msgs__rosidl_typesupport_cpp
+[1.981s] [ 49%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/tare_data__type_support.cpp.o
+[2.013s] [ 50%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/calibrate_arm_enable__type_support.cpp.o
+[2.127s] [ 51%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/calibrate_arm_data__type_support.cpp.o
+[2.173s] [ 53%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/tare_enable__type_support.cpp.o
+[2.221s] [ 54%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_maintenance_msgs/msg/update_source__type_support.cpp.o
+[2.301s] [ 55%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/tare_enable__type_support.cpp.o
+[2.335s] [ 56%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_maintenance_msgs/msg/detail/dds_fastrtps/update_source__type_support.cpp.o
+[2.367s] [ 58%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_c.so
+[2.481s] [ 59%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/update_sources__type_support_c.cpp.o
+[2.501s] [ 60%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/tare_data__type_support_c.cpp.o
+[2.505s] [ 62%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/update_status__type_support_c.cpp.o
+[2.531s] [ 62%] Built target baxter_maintenance_msgs__rosidl_typesupport_c
+[2.583s] [ 63%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__type_support_c.cpp.o
+[2.594s] [ 64%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__type_support_c.cpp.o
+[2.605s] [ 65%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/tare_enable__type_support_c.cpp.o
+[2.607s] [ 67%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/update_status__type_support.c.o
+[2.696s] [ 68%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/update_sources__type_support.c.o
+[2.735s] [ 69%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_introspection_cpp.so
+[2.777s] [ 70%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/tare_data__type_support.c.o
+[2.871s] [ 72%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_enable__type_support.c.o
+[2.948s] [ 73%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/calibrate_arm_data__type_support.c.o
+[2.982s] [ 74%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/tare_enable__type_support.c.o
+[2.993s] [ 75%] Building CXX object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_maintenance_msgs/msg/detail/update_source__type_support_c.cpp.o
+[3.025s] [ 77%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_maintenance_msgs/msg/detail/update_source__type_support.c.o
+[3.039s] [ 77%] Built target baxter_maintenance_msgs__rosidl_typesupport_introspection_cpp
+[3.126s] [ 78%] Linking C shared library libbaxter_maintenance_msgs__rosidl_typesupport_introspection_c.so
+[3.181s] [ 78%] Built target baxter_maintenance_msgs__rosidl_typesupport_introspection_c
+[3.484s] [ 79%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.599s] [ 79%] Built target baxter_maintenance_msgs__rosidl_typesupport_fastrtps_cpp
+[3.795s] [ 81%] Linking CXX shared library libbaxter_maintenance_msgs__rosidl_typesupport_fastrtps_c.so
+[3.875s] [ 81%] Built target baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c
+[3.899s] [ 81%] Built target baxter_maintenance_msgs
+[3.920s] [ 82%] Generating Python code for ROS interfaces
+[5.296s] [ 82%] Built target baxter_maintenance_msgs__py
+[5.329s] [ 84%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_tare_enable_s.c.o
+[5.329s] [ 84%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_tare_data_s.c.o
+[5.329s] [ 86%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_update_sources_s.c.o
+[5.329s] [ 87%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_update_source_s.c.o
+[5.329s] [ 88%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_update_status_s.c.o
+[5.331s] [ 89%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_calibrate_arm_enable_s.c.o
+[5.335s] [ 91%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_maintenance_msgs/msg/_calibrate_arm_data_s.c.o
+[5.633s] [ 92%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/libbaxter_maintenance_msgs__rosidl_generator_py.so
+[5.723s] [ 92%] Built target baxter_maintenance_msgs__rosidl_generator_py
+[5.772s] [ 93%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/baxter_maintenance_msgs/_baxter_maintenance_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.785s] [ 94%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/baxter_maintenance_msgs/_baxter_maintenance_msgs_s.ep.rosidl_typesupport_c.c.o
+[5.791s] [ 96%] Building C object CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/baxter_maintenance_msgs/_baxter_maintenance_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.005s] [ 97%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/baxter_maintenance_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.005s] [ 98%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/baxter_maintenance_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.038s] [100%] Linking C shared library rosidl_generator_py/baxter_maintenance_msgs/baxter_maintenance_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.052s] [100%] Built target baxter_maintenance_msgs__rosidl_typesupport_introspection_c__pyext
+[6.071s] [100%] Built target baxter_maintenance_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.103s] [100%] Built target baxter_maintenance_msgs__rosidl_typesupport_c__pyext

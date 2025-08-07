@@ -1,0 +1,82 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/EndEffectorState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module baxter_core_msgs {
+  module msg {
+    module EndEffectorState_Constants {
+      @verbatim (language="comment", text=
+        "The following State fields are tristate: 0 = false; 1 = true; 2 = unknown/unsupported")
+      const uint8 STATE_FALSE = 0;
+      const uint8 STATE_TRUE = 1;
+      const uint8 STATE_UNKNOWN = 2;
+      const float POSITION_CLOSED = 0.0;
+      const float POSITION_OPEN = 100.0;
+      const float FORCE_MIN = 0.0;
+      const float FORCE_MAX = 100.0;
+    };
+    struct EndEffectorState {
+      @verbatim (language="comment", text=
+        "time when state was updated")
+      builtin_interfaces::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "EndEffectorId")
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "true if enabled")
+      uint8 enabled;
+
+      @verbatim (language="comment", text=
+        "true if calibration has completed")
+      uint8 calibrated;
+
+      @verbatim (language="comment", text=
+        "true if ready for another command")
+      uint8 ready;
+
+      @verbatim (language="comment", text=
+        "true if moving")
+      uint8 moving;
+
+      @verbatim (language="comment", text=
+        "true if gripping")
+      uint8 gripping;
+
+      @verbatim (language="comment", text=
+        "true if GRIP/GOTO/SET was commanded and the gripper reaches the end of travel")
+      uint8 missed;
+
+      @verbatim (language="comment", text=
+        "true if the gripper is in an error state")
+      uint8 error;
+
+      @verbatim (language="comment", text=
+        "true if the gripper is in reverse mode")
+      uint8 reverse;
+
+      @verbatim (language="comment", text=
+        "position as a percentage of the max position; 0=closed - 100=open")
+      float position;
+
+      @verbatim (language="comment", text=
+        "force as a percentage of max force; 0=none - 100=max")
+      float force;
+
+      @verbatim (language="comment", text=
+        "JSON: other state information")
+      string state;
+
+      @verbatim (language="comment", text=
+        "from the last command message")
+      string command;
+
+      string command_sender;
+
+      uint32 command_sequence;
+    };
+  };
+};

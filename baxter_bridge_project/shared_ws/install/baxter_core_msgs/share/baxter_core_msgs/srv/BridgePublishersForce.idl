@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from baxter_core_msgs/srv/BridgePublishersForce.srv
+// generated code does not contain a copyright notice
+
+
+module baxter_core_msgs {
+  module srv {
+    struct BridgePublishersForce_Request {
+      string left_user;
+
+      string right_user;
+    };
+    struct BridgePublishersForce_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

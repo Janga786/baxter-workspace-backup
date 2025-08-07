@@ -1,0 +1,28 @@
+# pack-refs with: peeled fully-peeled sorted 
+3f0957465a2091ec38a1910fa4a2fa50f15ee17c refs/remotes/origin/arg_grippers_xacro
+6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e refs/remotes/origin/b6eb091
+38f56c2794b16ee4b82d87712b2057fa9bf0c415 refs/remotes/origin/development
+b04541e05cc74bee0cd52c72d6009a28f9fb56e4 refs/remotes/origin/gazebo_development
+eabdaba4fbb6479b83b9432a0923e7b92ce3afb8 refs/remotes/origin/kinetic-devel
+8dc92454db90c212ddab544369b198c9bfc6ed0c refs/remotes/origin/kinetic_optional_gripper
+6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e refs/remotes/origin/master
+835492e5f87f3199b247351b0f4eb0ce17329615 refs/remotes/origin/none_finger_tip
+84f2291227af9b85a75d52adfd0208b14e54722d refs/remotes/origin/optional_gripper
+1fa1833ea3cb1fb50860b13ade3ddf5d9a233ec6 refs/remotes/origin/release-0.7.0
+316a379f356572781935efd3908196eefd9b82bb refs/remotes/origin/release-1.0.0
+6b7128e81fa2ef3d5e10b762575db56f2f2f1c75 refs/remotes/origin/release-1.0.1
+ee8fd61a2df73a817093f99886cac15a890d1007 refs/remotes/origin/release-1.1.0
+7afd96391dc9e235d29a23a2c2bd3c73a048152c refs/remotes/origin/release-1.1.1
+f26ce44f6b7d2dcb6840772d898df589eaa5673d refs/remotes/origin/release-1.2.0
+76eefa797885b12c58dc14d5428c1bcd52ebf3f4 refs/tags/v0.7.0
+^11aeffada40139baafdbb1a15884894ec55412c5
+f2ef3bd3c59f33e881142d18e13de6ed09036cfa refs/tags/v1.0.0
+^85f23bbdc5f52bdabb3bcc9440ba2383b4327085
+d23c5b63c303dc84d59a0d2ce9f42b304a48046b refs/tags/v1.0.1
+^f252d7f99e0badc74cbe1ac851a52bf326c72a67
+8c0ff707f9755aa36daefe16d977e21b01aed9d5 refs/tags/v1.1.0
+^e380eeaa0721524efd7b6ea7236e0d934d790773
+a00f9f4cfa0faade20c9c124decaa198d8085d84 refs/tags/v1.1.1
+^0c5687c594c180384cfc0afd53ecc88ddbb29745
+091037084ac305f4f6018308752ded2a7f6e69e2 refs/tags/v1.2.0
+^6c4b0f375fe4e356a3b12df26ef7c0d5e58df86e

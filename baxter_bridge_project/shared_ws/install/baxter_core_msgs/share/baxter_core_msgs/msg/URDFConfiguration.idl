@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/URDFConfiguration.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module baxter_core_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "URDF Configuration")
+    struct URDFConfiguration {
+      @verbatim (language="comment", text=
+        "time the message was created, serves as a sequence number")
+      builtin_interfaces::msg::Time time;
+
+      @verbatim (language="comment", text=
+        "time should be changed only when the content changes." "\n"
+        "parent link name")
+      string link;
+
+      @verbatim (language="comment", text=
+        "joint to configure")
+      string joint;
+
+      @verbatim (language="comment", text=
+        "link + joint + time uniquely identifies a configuration." "\n"
+        "XML or JSON-encoded URDF data. This should be a URDF fragment")
+      string urdf;
+    };
+  };
+};

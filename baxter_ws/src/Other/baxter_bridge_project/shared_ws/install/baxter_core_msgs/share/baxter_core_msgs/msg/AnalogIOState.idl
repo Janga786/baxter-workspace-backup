@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from baxter_core_msgs/msg/AnalogIOState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module baxter_core_msgs {
+  module msg {
+    struct AnalogIOState {
+      builtin_interfaces::msg::Time timestamp;
+
+      double value;
+
+      boolean is_input_only;
+    };
+  };
+};

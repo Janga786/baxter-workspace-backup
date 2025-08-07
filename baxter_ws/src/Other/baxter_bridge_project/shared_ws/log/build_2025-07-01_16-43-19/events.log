@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000062] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000082] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000096] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000121] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000344] (-) EventReactorShutdown: {}
